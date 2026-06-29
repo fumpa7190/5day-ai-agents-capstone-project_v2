@@ -5,7 +5,7 @@ Markdown heading matching a schema field name (e.g. "## Teacher Activities"
 for `teacher_activities`). This keeps generation robust against a small local
 model that can write good Markdown prose far more reliably than deeply
 nested, schema-exact JSON - see plan decision 2 in
-specs/png-grade9-math-agent-workflow.md's implementation plan.
+specs/png-classroom-agent-workflow.md's implementation plan.
 """
 
 import re

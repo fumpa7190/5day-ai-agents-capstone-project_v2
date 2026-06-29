@@ -1,6 +1,6 @@
 """Per-agent output schemas.
 
-Fields mirror the spec's literal "Must produce" lists (specs/png-grade9-math-agent-workflow.md
+Fields mirror the spec's literal "Must produce" lists (specs/png-classroom-agent-workflow.md
 sections 5.2-5.6). Each agent writes Markdown headed by these field names; `raw_markdown`
 always holds the full, unparsed response so nothing is lost if a heading is missed or
 renamed by the model.

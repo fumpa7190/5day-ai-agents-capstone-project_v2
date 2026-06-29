@@ -1,4 +1,4 @@
-# PNG Classroom Resource Generator (v2 - Agent Skills rebuild)
+# PNG Classroom Resource Generator
 
 An AI assistant that helps teachers in Papua New Guinea schools generate lesson
 plans, activities, teacher notes, and assessments - grounded in the real PNG
@@ -6,13 +6,13 @@ Standards-Based Curriculum, and running entirely on a light local LLM
 (`gemma-4-e2b-it-qat` via LM Studio) so it works without a paid cloud API or
 reliable internet access.
 
-This is a rebuild of [5day-ai-agents-capstone-project](https://github.com/fumpa7190/5day-ai-agents),
-with the agent layer redesigned around **ADK Agent Skills**
-(`load_skill_from_dir` / `SkillToolset`) instead of large inlined prompts. The
-agent workflow and guardrails are unchanged from the spec; what changed is
-where the procedural knowledge each agent follows actually lives.
+The agent layer is built around **ADK Agent Skills**
+(`load_skill_from_dir` / `SkillToolset`): each agent's procedural
+knowledge - the rules and output structure for the resource type it
+generates - lives in a `skills/*/SKILL.md` file it loads at runtime, rather
+than being inlined into a large prompt.
 
-The implementation follows [`specs/png-grade9-math-agent-workflow.md`](specs/png-grade9-math-agent-workflow.md),
+The implementation follows [`specs/png-classroom-agent-workflow.md`](specs/png-classroom-agent-workflow.md),
 the source of truth for the agent workflow, guardrails, and Definition of Done.
 For house rules and the Skills architecture, see [`AGENTS.md`](AGENTS.md).
 
@@ -115,16 +115,15 @@ Topic **Linear Relations**, and click through all three steps.
 ## Known limitations
 
 - Only Grade 9 Mathematics has curriculum data loaded - a data-loading
-  limitation, not an architectural one (see `specs/png-grade9-math-agent-workflow.md`
+  limitation, not an architectural one (see `specs/png-classroom-agent-workflow.md`
   section 1).
 - A small local model doesn't always follow every instruction (e.g. it has
   skipped a heading, or omitted a literal benchmark code). Where this was
   observed, the relevant skill was tightened and/or the deterministic Review
   Agent was extended to catch it - but prompt-following from a 2-4B model is
   not 100% reliable.
-- Worksheet generation was dropped from this rebuild (it existed, unwired, in
-  the original project) - it can be added later as a fifth skill + agent
-  following the same pattern as the other four.
+- Worksheet generation isn't implemented yet - it can be added as a fifth
+  skill + agent following the same pattern as the other four.
 - Assessment's per-mode required headings (`quiz_test`/`assignment`/`full_pack`)
   aren't checked by the Review Agent the way Lesson Plan's and Teacher Notes'
   always-required fields are - the check would need to be conditional on

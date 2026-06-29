@@ -1,7 +1,7 @@
 # AGENTS.md - Project DNA
 
 Shared cross-tool instructions for any coding agent working in this repository.
-For *what* the system must do, see [`specs/png-grade9-math-agent-workflow.md`](specs/png-grade9-math-agent-workflow.md)
+For *what* the system must do, see [`specs/png-classroom-agent-workflow.md`](specs/png-classroom-agent-workflow.md)
 - that's the source of truth for the workflow and guardrails. This file is
 about *how* to work on it.
 
@@ -50,8 +50,8 @@ skill and has to pick the right one via `list_skills`/description matching,
 which reintroduces ambiguity and over-calling risk on a 2-4B local model.
 `tests/test_agent_skill_wiring.py` enforces this stays true.
 
-Adding a fifth resource type (e.g. Worksheet, dropped from this rebuild)
-means a new `skills/<name>-writing/` directory, a thin `prompts/<name>.md`,
+Adding a fifth resource type (e.g. Worksheet, not yet implemented) means a
+new `skills/<name>-writing/` directory, a thin `prompts/<name>.md`,
 and an `agents/<name>.py` following the existing four as a template - not a
 change to the shared skill or the orchestrator's stage-running mechanism.
 

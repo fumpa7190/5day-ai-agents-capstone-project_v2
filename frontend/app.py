@@ -31,7 +31,7 @@ from resource_utils import (  # noqa: E402
 GENERATION_TIMEOUT_SECONDS = 300
 
 # Grade and subject are parameters of the agent/skill layer (see
-# specs/png-grade9-math-agent-workflow.md section 1) - they are not fixed
+# specs/png-classroom-agent-workflow.md section 1) - they are not fixed
 # here because the system can't do them, only because this is the only
 # grade/subject with curriculum data actually loaded today. Add another
 # grade's data in the same format and this becomes a selector, not a const.

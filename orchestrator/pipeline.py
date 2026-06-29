@@ -13,7 +13,7 @@ Matching or Lesson Planning, and stage 3 never re-runs stage 2.
 
 Each LLM agent below carries its own scoped SkillToolset (built in agents/*.py)
 - the procedural "how to write this" knowledge lives in skills/*/SKILL.md, not
-in this orchestrator or in the agent prompts. See specs/png-grade9-math-agent-workflow.md
+in this orchestrator or in the agent prompts. See specs/png-classroom-agent-workflow.md
 for the workflow this implements.
 """
 
