@@ -1,0 +1,432 @@
+[
+  {
+    "label": "Factors, Multiples, Primes and Composites (9.1.1.1)",
+    "value": "png_math_g9_9_1_1_1",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Number and Operations",
+    "topic": "Factors, Multiples, Primes and Composites",
+    "benchmark_code": "9.1.1.1"
+  },
+  {
+    "label": "Fractions, Decimals and Percentages (9.1.1.2)",
+    "value": "png_math_g9_9_1_1_2",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Number and Operations",
+    "topic": "Fractions, Decimals and Percentages",
+    "benchmark_code": "9.1.1.2"
+  },
+  {
+    "label": "Ratio and Proportion (9.1.1.3)",
+    "value": "png_math_g9_9_1_1_3",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Number and Operations",
+    "topic": "Ratio and Proportion",
+    "benchmark_code": "9.1.1.3"
+  },
+  {
+    "label": "Approximation and Estimation (9.1.1.4)",
+    "value": "png_math_g9_9_1_1_4",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Estimation",
+    "topic": "Approximation and Estimation",
+    "benchmark_code": "9.1.1.4"
+  },
+  {
+    "label": "Significant Figures (9.1.1.5)",
+    "value": "png_math_g9_9_1_1_5",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Estimation",
+    "topic": "Significant Figures",
+    "benchmark_code": "9.1.1.5"
+  },
+  {
+    "label": "Directed Numbers (9.1.1.6)",
+    "value": "png_math_g9_9_1_1_6",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Directed Numbers",
+    "topic": "Directed Numbers",
+    "benchmark_code": "9.1.1.6"
+  },
+  {
+    "label": "Representation and Application of Directed Numbers (9.1.1.7)",
+    "value": "png_math_g9_9_1_1_7",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Directed Numbers",
+    "topic": "Representation and Application of Directed Numbers",
+    "benchmark_code": "9.1.1.7"
+  },
+  {
+    "label": "Squares and Square Roots (9.1.1.8)",
+    "value": "png_math_g9_9_1_1_8",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Indices",
+    "topic": "Squares and Square Roots",
+    "benchmark_code": "9.1.1.8"
+  },
+  {
+    "label": "Real Numbers (9.1.1.9)",
+    "value": "png_math_g9_9_1_1_9",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Indices",
+    "topic": "Real Numbers",
+    "benchmark_code": "9.1.1.9"
+  },
+  {
+    "label": "Operations with Rational Numbers (9.1.1.10)",
+    "value": "png_math_g9_9_1_1_10",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Indices",
+    "topic": "Operations with Rational Numbers",
+    "benchmark_code": "9.1.1.10"
+  },
+  {
+    "label": "Laws of Indices (9.1.1.11)",
+    "value": "png_math_g9_9_1_1_11",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "unit": "Indices",
+    "topic": "Laws of Indices",
+    "benchmark_code": "9.1.1.11"
+  },
+  {
+    "label": "Metric System of Measurement (9.2.2.1)",
+    "value": "png_math_g9_9_2_2_1",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Metric System of Measurement",
+    "benchmark_code": "9.2.2.1"
+  },
+  {
+    "label": "Perimeter (9.2.2.2)",
+    "value": "png_math_g9_9_2_2_2",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Perimeter",
+    "benchmark_code": "9.2.2.2"
+  },
+  {
+    "label": "Area of Plane Figures (9.2.2.3)",
+    "value": "png_math_g9_9_2_2_3",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Area of Plane Figures",
+    "benchmark_code": "9.2.2.3"
+  },
+  {
+    "label": "Surface Area and Volume (9.2.2.4)",
+    "value": "png_math_g9_9_2_2_4",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Surface Area and Volume",
+    "benchmark_code": "9.2.2.4"
+  },
+  {
+    "label": "Surface Area and Volume of Right Solids (9.2.2.5)",
+    "value": "png_math_g9_9_2_2_5",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Surface Area and Volume of Right Solids",
+    "benchmark_code": "9.2.2.5"
+  },
+  {
+    "label": "Time Scales (9.2.2.6)",
+    "value": "png_math_g9_9_2_2_6",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Rate",
+    "topic": "Time Scales",
+    "benchmark_code": "9.2.2.6"
+  },
+  {
+    "label": "Rates, Tables and Graphs (9.2.2.7)",
+    "value": "png_math_g9_9_2_2_7",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Rate",
+    "topic": "Rates, Tables and Graphs",
+    "benchmark_code": "9.2.2.7"
+  },
+  {
+    "label": "Travels Graphs (9.2.2.8)",
+    "value": "png_math_g9_9_2_2_8",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Rate",
+    "topic": "Travels Graphs",
+    "benchmark_code": "9.2.2.8"
+  },
+  {
+    "label": "Angles and Lines (9.2.2.9)",
+    "value": "png_math_g9_9_2_2_9",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Geometry",
+    "topic": "Angles and Lines",
+    "benchmark_code": "9.2.2.9"
+  },
+  {
+    "label": "Enlargement Transformation (9.2.2.10)",
+    "value": "png_math_g9_9_2_2_10",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Geometry",
+    "topic": "Enlargement Transformation",
+    "benchmark_code": "9.2.2.10"
+  },
+  {
+    "label": "Transformations including Reflections, Rotation and Translation (9.2.2.11)",
+    "value": "png_math_g9_9_2_2_11",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Geometry",
+    "topic": "Transformations including Reflections, Rotation and Translation",
+    "benchmark_code": "9.2.2.11"
+  },
+  {
+    "label": "Circles (9.2.2.12)",
+    "value": "png_math_g9_9_2_2_12",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "unit": "Geometry",
+    "topic": "Circles",
+    "benchmark_code": "9.2.2.12"
+  },
+  {
+    "label": "Equation of a Straight Line (9.3.3.1)",
+    "value": "png_math_g9_9_3_3_1",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Linear Functions",
+    "topic": "Equation of a Straight Line",
+    "benchmark_code": "9.3.3.1"
+  },
+  {
+    "label": "Graphs of Linear Equation (9.3.3.2)",
+    "value": "png_math_g9_9_3_3_2",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Linear Functions",
+    "topic": "Graphs of Linear Equation",
+    "benchmark_code": "9.3.3.2"
+  },
+  {
+    "label": "Linear Relations (9.3.3.3)",
+    "value": "png_math_g9_9_3_3_3",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Linear Functions",
+    "topic": "Linear Relations",
+    "benchmark_code": "9.3.3.3"
+  },
+  {
+    "label": "Linear Simultaneous Equations (9.3.3.4)",
+    "value": "png_math_g9_9_3_3_4",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Equations and Inequality",
+    "topic": "Linear Simultaneous Equations",
+    "benchmark_code": "9.3.3.4"
+  },
+  {
+    "label": "Linear Equations and Inequalities (9.3.3.5)",
+    "value": "png_math_g9_9_3_3_5",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Equations and Inequality",
+    "topic": "Linear Equations and Inequalities",
+    "benchmark_code": "9.3.3.5"
+  },
+  {
+    "label": "Patterns, Sequences and Formulae (9.3.3.6)",
+    "value": "png_math_g9_9_3_3_6",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Number Patterns",
+    "topic": "Patterns, Sequences and Formulae",
+    "benchmark_code": "9.3.3.6"
+  },
+  {
+    "label": "Formulae and Patterns (9.3.3.7)",
+    "value": "png_math_g9_9_3_3_7",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Number Patterns",
+    "topic": "Formulae and Patterns",
+    "benchmark_code": "9.3.3.7"
+  },
+  {
+    "label": "Number Pattern Problems (9.3.3.8)",
+    "value": "png_math_g9_9_3_3_8",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Number Patterns",
+    "topic": "Number Pattern Problems",
+    "benchmark_code": "9.3.3.8"
+  },
+  {
+    "label": "Algebraic Equations and Factorisation (9.3.3.9)",
+    "value": "png_math_g9_9_3_3_9",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Algebra",
+    "topic": "Algebraic Equations and Factorisation",
+    "benchmark_code": "9.3.3.9"
+  },
+  {
+    "label": "Factorization of Monic and Non‐monic Quadratic Expressions (9.3.3.10)",
+    "value": "png_math_g9_9_3_3_10",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Algebra",
+    "topic": "Factorization of Monic and Non‐monic Quadratic Expressions",
+    "benchmark_code": "9.3.3.10"
+  },
+  {
+    "label": "Binomials (9.3.3.11)",
+    "value": "png_math_g9_9_3_3_11",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Algebra",
+    "topic": "Binomials",
+    "benchmark_code": "9.3.3.11"
+  },
+  {
+    "label": "Simplify Using Index Laws (9.3.3.12)",
+    "value": "png_math_g9_9_3_3_12",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Algebra",
+    "topic": "Simplify Using Index Laws",
+    "benchmark_code": "9.3.3.12"
+  },
+  {
+    "label": "Algebraic Fractions (9.3.3.13)",
+    "value": "png_math_g9_9_3_3_13",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Algebra",
+    "topic": "Algebraic Fractions",
+    "benchmark_code": "9.3.3.13"
+  },
+  {
+    "label": "Substitution (9.3.3.14)",
+    "value": "png_math_g9_9_3_3_14",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "unit": "Algebra",
+    "topic": "Substitution",
+    "benchmark_code": "9.3.3.14"
+  },
+  {
+    "label": "Data (9.4.4.1)",
+    "value": "png_math_g9_9_4_4_1",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "unit": "Data and Statistics",
+    "topic": "Data",
+    "benchmark_code": "9.4.4.1"
+  },
+  {
+    "label": "Exploring Data (9.4.4.2)",
+    "value": "png_math_g9_9_4_4_2",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "unit": "Data and Statistics",
+    "topic": "Exploring Data",
+    "benchmark_code": "9.4.4.2"
+  },
+  {
+    "label": "Data Collection, Analysis and Representation (9.4.4.3)",
+    "value": "png_math_g9_9_4_4_3",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "unit": "Data and Statistics",
+    "topic": "Data Collection, Analysis and Representation",
+    "benchmark_code": "9.4.4.3"
+  },
+  {
+    "label": "Experimental and Theoretical Probabilities (9.4.4.4)",
+    "value": "png_math_g9_9_4_4_4",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "unit": "Probability",
+    "topic": "Experimental and Theoretical Probabilities",
+    "benchmark_code": "9.4.4.4"
+  },
+  {
+    "label": "Complementary Events (9.4.4.5)",
+    "value": "png_math_g9_9_4_4_5",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "unit": "Probability",
+    "topic": "Complementary Events",
+    "benchmark_code": "9.4.4.5"
+  },
+  {
+    "label": "Language of Probability (9.4.4.6)",
+    "value": "png_math_g9_9_4_4_6",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "unit": "Probability",
+    "topic": "Language of Probability",
+    "benchmark_code": "9.4.4.6"
+  }
+]

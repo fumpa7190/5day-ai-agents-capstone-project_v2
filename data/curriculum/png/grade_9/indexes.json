@@ -1,0 +1,612 @@
+{
+  "by_grade": {
+    "9": [
+      "png_math_g9_9_1_1_1",
+      "png_math_g9_9_1_1_2",
+      "png_math_g9_9_1_1_3",
+      "png_math_g9_9_1_1_4",
+      "png_math_g9_9_1_1_5",
+      "png_math_g9_9_1_1_6",
+      "png_math_g9_9_1_1_7",
+      "png_math_g9_9_1_1_8",
+      "png_math_g9_9_1_1_9",
+      "png_math_g9_9_1_1_10",
+      "png_math_g9_9_1_1_11",
+      "png_math_g9_9_2_2_1",
+      "png_math_g9_9_2_2_2",
+      "png_math_g9_9_2_2_3",
+      "png_math_g9_9_2_2_4",
+      "png_math_g9_9_2_2_5",
+      "png_math_g9_9_2_2_6",
+      "png_math_g9_9_2_2_7",
+      "png_math_g9_9_2_2_8",
+      "png_math_g9_9_2_2_9",
+      "png_math_g9_9_2_2_10",
+      "png_math_g9_9_2_2_11",
+      "png_math_g9_9_2_2_12",
+      "png_math_g9_9_3_3_1",
+      "png_math_g9_9_3_3_2",
+      "png_math_g9_9_3_3_3",
+      "png_math_g9_9_3_3_4",
+      "png_math_g9_9_3_3_5",
+      "png_math_g9_9_3_3_6",
+      "png_math_g9_9_3_3_7",
+      "png_math_g9_9_3_3_8",
+      "png_math_g9_9_3_3_9",
+      "png_math_g9_9_3_3_10",
+      "png_math_g9_9_3_3_11",
+      "png_math_g9_9_3_3_12",
+      "png_math_g9_9_3_3_13",
+      "png_math_g9_9_3_3_14",
+      "png_math_g9_9_4_4_1",
+      "png_math_g9_9_4_4_2",
+      "png_math_g9_9_4_4_3",
+      "png_math_g9_9_4_4_4",
+      "png_math_g9_9_4_4_5",
+      "png_math_g9_9_4_4_6"
+    ]
+  },
+  "by_subject": {
+    "Mathematics": [
+      "png_math_g9_9_1_1_1",
+      "png_math_g9_9_1_1_2",
+      "png_math_g9_9_1_1_3",
+      "png_math_g9_9_1_1_4",
+      "png_math_g9_9_1_1_5",
+      "png_math_g9_9_1_1_6",
+      "png_math_g9_9_1_1_7",
+      "png_math_g9_9_1_1_8",
+      "png_math_g9_9_1_1_9",
+      "png_math_g9_9_1_1_10",
+      "png_math_g9_9_1_1_11",
+      "png_math_g9_9_2_2_1",
+      "png_math_g9_9_2_2_2",
+      "png_math_g9_9_2_2_3",
+      "png_math_g9_9_2_2_4",
+      "png_math_g9_9_2_2_5",
+      "png_math_g9_9_2_2_6",
+      "png_math_g9_9_2_2_7",
+      "png_math_g9_9_2_2_8",
+      "png_math_g9_9_2_2_9",
+      "png_math_g9_9_2_2_10",
+      "png_math_g9_9_2_2_11",
+      "png_math_g9_9_2_2_12",
+      "png_math_g9_9_3_3_1",
+      "png_math_g9_9_3_3_2",
+      "png_math_g9_9_3_3_3",
+      "png_math_g9_9_3_3_4",
+      "png_math_g9_9_3_3_5",
+      "png_math_g9_9_3_3_6",
+      "png_math_g9_9_3_3_7",
+      "png_math_g9_9_3_3_8",
+      "png_math_g9_9_3_3_9",
+      "png_math_g9_9_3_3_10",
+      "png_math_g9_9_3_3_11",
+      "png_math_g9_9_3_3_12",
+      "png_math_g9_9_3_3_13",
+      "png_math_g9_9_3_3_14",
+      "png_math_g9_9_4_4_1",
+      "png_math_g9_9_4_4_2",
+      "png_math_g9_9_4_4_3",
+      "png_math_g9_9_4_4_4",
+      "png_math_g9_9_4_4_5",
+      "png_math_g9_9_4_4_6"
+    ]
+  },
+  "by_strand": {
+    "Number, Operation and Computation": [
+      "png_math_g9_9_1_1_1",
+      "png_math_g9_9_1_1_2",
+      "png_math_g9_9_1_1_3",
+      "png_math_g9_9_1_1_4",
+      "png_math_g9_9_1_1_5",
+      "png_math_g9_9_1_1_6",
+      "png_math_g9_9_1_1_7",
+      "png_math_g9_9_1_1_8",
+      "png_math_g9_9_1_1_9",
+      "png_math_g9_9_1_1_10",
+      "png_math_g9_9_1_1_11"
+    ],
+    "Geometry, Measurement and Transformation": [
+      "png_math_g9_9_2_2_1",
+      "png_math_g9_9_2_2_2",
+      "png_math_g9_9_2_2_3",
+      "png_math_g9_9_2_2_4",
+      "png_math_g9_9_2_2_5",
+      "png_math_g9_9_2_2_6",
+      "png_math_g9_9_2_2_7",
+      "png_math_g9_9_2_2_8",
+      "png_math_g9_9_2_2_9",
+      "png_math_g9_9_2_2_10",
+      "png_math_g9_9_2_2_11",
+      "png_math_g9_9_2_2_12"
+    ],
+    "Patterns and Algebra": [
+      "png_math_g9_9_3_3_1",
+      "png_math_g9_9_3_3_2",
+      "png_math_g9_9_3_3_3",
+      "png_math_g9_9_3_3_4",
+      "png_math_g9_9_3_3_5",
+      "png_math_g9_9_3_3_6",
+      "png_math_g9_9_3_3_7",
+      "png_math_g9_9_3_3_8",
+      "png_math_g9_9_3_3_9",
+      "png_math_g9_9_3_3_10",
+      "png_math_g9_9_3_3_11",
+      "png_math_g9_9_3_3_12",
+      "png_math_g9_9_3_3_13",
+      "png_math_g9_9_3_3_14"
+    ],
+    "Statistics and Probability": [
+      "png_math_g9_9_4_4_1",
+      "png_math_g9_9_4_4_2",
+      "png_math_g9_9_4_4_3",
+      "png_math_g9_9_4_4_4",
+      "png_math_g9_9_4_4_5",
+      "png_math_g9_9_4_4_6"
+    ]
+  },
+  "by_unit": {
+    "Number and Operations": [
+      "png_math_g9_9_1_1_1",
+      "png_math_g9_9_1_1_2",
+      "png_math_g9_9_1_1_3"
+    ],
+    "Estimation": [
+      "png_math_g9_9_1_1_4",
+      "png_math_g9_9_1_1_5"
+    ],
+    "Directed Numbers": [
+      "png_math_g9_9_1_1_6",
+      "png_math_g9_9_1_1_7"
+    ],
+    "Indices": [
+      "png_math_g9_9_1_1_8",
+      "png_math_g9_9_1_1_9",
+      "png_math_g9_9_1_1_10",
+      "png_math_g9_9_1_1_11"
+    ],
+    "Mensuration of Plane Figures and Solids": [
+      "png_math_g9_9_2_2_1",
+      "png_math_g9_9_2_2_2",
+      "png_math_g9_9_2_2_3",
+      "png_math_g9_9_2_2_4",
+      "png_math_g9_9_2_2_5"
+    ],
+    "Rate": [
+      "png_math_g9_9_2_2_6",
+      "png_math_g9_9_2_2_7",
+      "png_math_g9_9_2_2_8"
+    ],
+    "Geometry": [
+      "png_math_g9_9_2_2_9",
+      "png_math_g9_9_2_2_10",
+      "png_math_g9_9_2_2_11",
+      "png_math_g9_9_2_2_12"
+    ],
+    "Linear Functions": [
+      "png_math_g9_9_3_3_1",
+      "png_math_g9_9_3_3_2",
+      "png_math_g9_9_3_3_3"
+    ],
+    "Equations and Inequality": [
+      "png_math_g9_9_3_3_4",
+      "png_math_g9_9_3_3_5"
+    ],
+    "Number Patterns": [
+      "png_math_g9_9_3_3_6",
+      "png_math_g9_9_3_3_7",
+      "png_math_g9_9_3_3_8"
+    ],
+    "Algebra": [
+      "png_math_g9_9_3_3_9",
+      "png_math_g9_9_3_3_10",
+      "png_math_g9_9_3_3_11",
+      "png_math_g9_9_3_3_12",
+      "png_math_g9_9_3_3_13",
+      "png_math_g9_9_3_3_14"
+    ],
+    "Data and Statistics": [
+      "png_math_g9_9_4_4_1",
+      "png_math_g9_9_4_4_2",
+      "png_math_g9_9_4_4_3"
+    ],
+    "Probability": [
+      "png_math_g9_9_4_4_4",
+      "png_math_g9_9_4_4_5",
+      "png_math_g9_9_4_4_6"
+    ]
+  },
+  "by_topic": {
+    "factors, multiples, primes and composites": "png_math_g9_9_1_1_1",
+    "fractions, decimals and percentages": "png_math_g9_9_1_1_2",
+    "ratio and proportion": "png_math_g9_9_1_1_3",
+    "approximation and estimation": "png_math_g9_9_1_1_4",
+    "significant figures": "png_math_g9_9_1_1_5",
+    "directed numbers": "png_math_g9_9_1_1_6",
+    "representation and application of directed numbers": "png_math_g9_9_1_1_7",
+    "squares and square roots": "png_math_g9_9_1_1_8",
+    "real numbers": "png_math_g9_9_1_1_9",
+    "operations with rational numbers": "png_math_g9_9_1_1_10",
+    "laws of indices": "png_math_g9_9_1_1_11",
+    "metric system of measurement": "png_math_g9_9_2_2_1",
+    "perimeter": "png_math_g9_9_2_2_2",
+    "area of plane figures": "png_math_g9_9_2_2_3",
+    "surface area and volume": "png_math_g9_9_2_2_4",
+    "surface area and volume of right solids": "png_math_g9_9_2_2_5",
+    "time scales": "png_math_g9_9_2_2_6",
+    "rates, tables and graphs": "png_math_g9_9_2_2_7",
+    "travels graphs": "png_math_g9_9_2_2_8",
+    "angles and lines": "png_math_g9_9_2_2_9",
+    "enlargement transformation": "png_math_g9_9_2_2_10",
+    "transformations including reflections, rotation and translation": "png_math_g9_9_2_2_11",
+    "circles": "png_math_g9_9_2_2_12",
+    "equation of a straight line": "png_math_g9_9_3_3_1",
+    "graphs of linear equation": "png_math_g9_9_3_3_2",
+    "linear relations": "png_math_g9_9_3_3_3",
+    "linear simultaneous equations": "png_math_g9_9_3_3_4",
+    "linear equations and inequalities": "png_math_g9_9_3_3_5",
+    "patterns, sequences and formulae": "png_math_g9_9_3_3_6",
+    "formulae and patterns": "png_math_g9_9_3_3_7",
+    "number pattern problems": "png_math_g9_9_3_3_8",
+    "algebraic equations and factorisation": "png_math_g9_9_3_3_9",
+    "factorization of monic and non‐monic quadratic expressions": "png_math_g9_9_3_3_10",
+    "binomials": "png_math_g9_9_3_3_11",
+    "simplify using index laws": "png_math_g9_9_3_3_12",
+    "algebraic fractions": "png_math_g9_9_3_3_13",
+    "substitution": "png_math_g9_9_3_3_14",
+    "data": "png_math_g9_9_4_4_1",
+    "exploring data": "png_math_g9_9_4_4_2",
+    "data collection, analysis and representation": "png_math_g9_9_4_4_3",
+    "experimental and theoretical probabilities": "png_math_g9_9_4_4_4",
+    "complementary events": "png_math_g9_9_4_4_5",
+    "language of probability": "png_math_g9_9_4_4_6"
+  },
+  "by_benchmark_code": {
+    "9.1.1.1": "png_math_g9_9_1_1_1",
+    "9.1.1.2": "png_math_g9_9_1_1_2",
+    "9.1.1.3": "png_math_g9_9_1_1_3",
+    "9.1.1.4": "png_math_g9_9_1_1_4",
+    "9.1.1.5": "png_math_g9_9_1_1_5",
+    "9.1.1.6": "png_math_g9_9_1_1_6",
+    "9.1.1.7": "png_math_g9_9_1_1_7",
+    "9.1.1.8": "png_math_g9_9_1_1_8",
+    "9.1.1.9": "png_math_g9_9_1_1_9",
+    "9.1.1.10": "png_math_g9_9_1_1_10",
+    "9.1.1.11": "png_math_g9_9_1_1_11",
+    "9.2.2.1": "png_math_g9_9_2_2_1",
+    "9.2.2.2": "png_math_g9_9_2_2_2",
+    "9.2.2.3": "png_math_g9_9_2_2_3",
+    "9.2.2.4": "png_math_g9_9_2_2_4",
+    "9.2.2.5": "png_math_g9_9_2_2_5",
+    "9.2.2.6": "png_math_g9_9_2_2_6",
+    "9.2.2.7": "png_math_g9_9_2_2_7",
+    "9.2.2.8": "png_math_g9_9_2_2_8",
+    "9.2.2.9": "png_math_g9_9_2_2_9",
+    "9.2.2.10": "png_math_g9_9_2_2_10",
+    "9.2.2.11": "png_math_g9_9_2_2_11",
+    "9.2.2.12": "png_math_g9_9_2_2_12",
+    "9.3.3.1": "png_math_g9_9_3_3_1",
+    "9.3.3.2": "png_math_g9_9_3_3_2",
+    "9.3.3.3": "png_math_g9_9_3_3_3",
+    "9.3.3.4": "png_math_g9_9_3_3_4",
+    "9.3.3.5": "png_math_g9_9_3_3_5",
+    "9.3.3.6": "png_math_g9_9_3_3_6",
+    "9.3.3.7": "png_math_g9_9_3_3_7",
+    "9.3.3.8": "png_math_g9_9_3_3_8",
+    "9.3.3.9": "png_math_g9_9_3_3_9",
+    "9.3.3.10": "png_math_g9_9_3_3_10",
+    "9.3.3.11": "png_math_g9_9_3_3_11",
+    "9.3.3.12": "png_math_g9_9_3_3_12",
+    "9.3.3.13": "png_math_g9_9_3_3_13",
+    "9.3.3.14": "png_math_g9_9_3_3_14",
+    "9.4.4.1": "png_math_g9_9_4_4_1",
+    "9.4.4.2": "png_math_g9_9_4_4_2",
+    "9.4.4.3": "png_math_g9_9_4_4_3",
+    "9.4.4.4": "png_math_g9_9_4_4_4",
+    "9.4.4.5": "png_math_g9_9_4_4_5",
+    "9.4.4.6": "png_math_g9_9_4_4_6"
+  },
+  "selection_tree": {
+    "9": {
+      "Mathematics": {
+        "Number, Operation and Computation": {
+          "Number and Operations": [
+            {
+              "id": "png_math_g9_9_1_1_1",
+              "topic": "Factors, Multiples, Primes and Composites",
+              "benchmark_code": "9.1.1.1",
+              "benchmark": "Use and represent factors, multiples, primes, composites, in various forms and situations."
+            },
+            {
+              "id": "png_math_g9_9_1_1_2",
+              "topic": "Fractions, Decimals and Percentages",
+              "benchmark_code": "9.1.1.2",
+              "benchmark": "Calculate fractions, decimals and percentages and their conversions."
+            },
+            {
+              "id": "png_math_g9_9_1_1_3",
+              "topic": "Ratio and Proportion",
+              "benchmark_code": "9.1.1.3",
+              "benchmark": "Solve problems involving ratio and proportions between quantities."
+            }
+          ],
+          "Estimation": [
+            {
+              "id": "png_math_g9_9_1_1_4",
+              "topic": "Approximation and Estimation",
+              "benchmark_code": "9.1.1.4",
+              "benchmark": "Estimate a reasonable solution to a problem using rounding and estimation and recognize their limitations through calculation methods."
+            },
+            {
+              "id": "png_math_g9_9_1_1_5",
+              "topic": "Significant Figures",
+              "benchmark_code": "9.1.1.5",
+              "benchmark": "Identify significant figures and decimals in various situations."
+            }
+          ],
+          "Directed Numbers": [
+            {
+              "id": "png_math_g9_9_1_1_6",
+              "topic": "Directed Numbers",
+              "benchmark_code": "9.1.1.6",
+              "benchmark": "Use appropriated rules of directed numbers and mixed operations to solve authentic problems."
+            },
+            {
+              "id": "png_math_g9_9_1_1_7",
+              "topic": "Representation and Application of Directed Numbers",
+              "benchmark_code": "9.1.1.7",
+              "benchmark": "Explain the concepts of negative and positive numbers using various representations."
+            }
+          ],
+          "Indices": [
+            {
+              "id": "png_math_g9_9_1_1_8",
+              "topic": "Squares and Square Roots",
+              "benchmark_code": "9.1.1.8",
+              "benchmark": "Determine the relationship between square numbers and square roots and solve related problems."
+            },
+            {
+              "id": "png_math_g9_9_1_1_9",
+              "topic": "Real Numbers",
+              "benchmark_code": "9.1.1.9",
+              "benchmark": "Explain the rational and irrational numbers and perform operations with surds and fractional indices."
+            },
+            {
+              "id": "png_math_g9_9_1_1_10",
+              "topic": "Operations with Rational Numbers",
+              "benchmark_code": "9.1.1.10",
+              "benchmark": "Apply addition, subtraction, multiplication, division and order of Operations when calculating with rational numbers."
+            },
+            {
+              "id": "png_math_g9_9_1_1_11",
+              "topic": "Laws of Indices",
+              "benchmark_code": "9.1.1.11",
+              "benchmark": "Apply the index laws to variables, using positive integer indices and the zero."
+            }
+          ]
+        },
+        "Geometry, Measurement and Transformation": {
+          "Mensuration of Plane Figures and Solids": [
+            {
+              "id": "png_math_g9_9_2_2_1",
+              "topic": "Metric System of Measurement",
+              "benchmark_code": "9.2.2.1",
+              "benchmark": "Apply metric systems of measurements to solve problems."
+            },
+            {
+              "id": "png_math_g9_9_2_2_2",
+              "topic": "Perimeter",
+              "benchmark_code": "9.2.2.2",
+              "benchmark": "Calculate the perimeter and areas of plane figures and composite shapes."
+            },
+            {
+              "id": "png_math_g9_9_2_2_3",
+              "topic": "Area of Plane Figures",
+              "benchmark_code": "9.2.2.3",
+              "benchmark": "Use formulas, including appropriate units of measure, to determine the surface area and volume of selected prisms, cylinders, cones, and pyramids."
+            },
+            {
+              "id": "png_math_g9_9_2_2_4",
+              "topic": "Surface Area and Volume",
+              "benchmark_code": "9.2.2.4",
+              "benchmark": "Solve problems involving the surface area and volume of right prisms and composite solids."
+            },
+            {
+              "id": "png_math_g9_9_2_2_5",
+              "topic": "Surface Area and Volume of Right Solids",
+              "benchmark_code": "9.2.2.5",
+              "benchmark": "Solve problems involving surface area and volume of right pyramids, right cones, spheres and related composite solids."
+            }
+          ],
+          "Rate": [
+            {
+              "id": "png_math_g9_9_2_2_6",
+              "topic": "Time Scales",
+              "benchmark_code": "9.2.2.6",
+              "benchmark": "Investigate very small and very large time scales and intervals."
+            },
+            {
+              "id": "png_math_g9_9_2_2_7",
+              "topic": "Rates, Tables and Graphs",
+              "benchmark_code": "9.2.2.7",
+              "benchmark": "Explain representation of tables and graphs of rates."
+            },
+            {
+              "id": "png_math_g9_9_2_2_8",
+              "topic": "Travels Graphs",
+              "benchmark_code": "9.2.2.8",
+              "benchmark": "Solve problems with rates and interpret related graphs."
+            }
+          ],
+          "Geometry": [
+            {
+              "id": "png_math_g9_9_2_2_9",
+              "topic": "Angles and Lines",
+              "benchmark_code": "9.2.2.9",
+              "benchmark": "Explain the concepts of parallel lines, perpendicular lines, angles, and angles sum of polygons."
+            },
+            {
+              "id": "png_math_g9_9_2_2_10",
+              "topic": "Enlargement Transformation",
+              "benchmark_code": "9.2.2.10",
+              "benchmark": "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems."
+            },
+            {
+              "id": "png_math_g9_9_2_2_11",
+              "topic": "Transformations including Reflections, Rotation and Translation",
+              "benchmark_code": "9.2.2.11",
+              "benchmark": "Perform transformations including reflections, rotation and translation and describe the size, position and orientation of the resulting shapes."
+            },
+            {
+              "id": "png_math_g9_9_2_2_12",
+              "topic": "Circles",
+              "benchmark_code": "9.2.2.12",
+              "benchmark": "Investigate angles formed by chords and tangent of a circle."
+            }
+          ]
+        },
+        "Patterns and Algebra": {
+          "Linear Functions": [
+            {
+              "id": "png_math_g9_9_3_3_1",
+              "topic": "Equation of a Straight Line",
+              "benchmark_code": "9.3.3.1",
+              "benchmark": "Determine the slope and equation of a line when given the graph of a line, two points on the line, or the equation of the line."
+            },
+            {
+              "id": "png_math_g9_9_3_3_2",
+              "topic": "Graphs of Linear Equation",
+              "benchmark_code": "9.3.3.2",
+              "benchmark": "Solve and sketch linear equations."
+            },
+            {
+              "id": "png_math_g9_9_3_3_3",
+              "topic": "Linear Relations",
+              "benchmark_code": "9.3.3.3",
+              "benchmark": "Apply and interpret linear relation modelling practical situations."
+            }
+          ],
+          "Equations and Inequality": [
+            {
+              "id": "png_math_g9_9_3_3_4",
+              "topic": "Linear Simultaneous Equations",
+              "benchmark_code": "9.3.3.4",
+              "benchmark": "Solve linear simultaneous equations, using algebraic and graphical techniques including usage of digital technology."
+            },
+            {
+              "id": "png_math_g9_9_3_3_5",
+              "topic": "Linear Equations and Inequalities",
+              "benchmark_code": "9.3.3.5",
+              "benchmark": "Investigate and solve single variable equations and inequalities using rational numberline and use nuberline to graph the solutions."
+            }
+          ],
+          "Number Patterns": [
+            {
+              "id": "png_math_g9_9_3_3_6",
+              "topic": "Patterns, Sequences and Formulae",
+              "benchmark_code": "9.3.3.6",
+              "benchmark": "Represent a variety of patterns, including recursive patterns, with tables, graphs, words and symbolic rules."
+            },
+            {
+              "id": "png_math_g9_9_3_3_7",
+              "topic": "Formulae and Patterns",
+              "benchmark_code": "9.3.3.7",
+              "benchmark": "Identify and apply appropriate mathematical formulae to find values of various patterns."
+            },
+            {
+              "id": "png_math_g9_9_3_3_8",
+              "topic": "Number Pattern Problems",
+              "benchmark_code": "9.3.3.8",
+              "benchmark": "Solve various problems on number patterns."
+            }
+          ],
+          "Algebra": [
+            {
+              "id": "png_math_g9_9_3_3_9",
+              "topic": "Algebraic Equations and Factorisation",
+              "benchmark_code": "9.3.3.9",
+              "benchmark": "Represent mathematical situations as algebraic expressions and equations and factorize by common factor."
+            },
+            {
+              "id": "png_math_g9_9_3_3_10",
+              "topic": "Factorization of Monic and Non‐monic Quadratic Expressions",
+              "benchmark_code": "9.3.3.10",
+              "benchmark": "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts."
+            },
+            {
+              "id": "png_math_g9_9_3_3_11",
+              "topic": "Binomials",
+              "benchmark_code": "9.3.3.11",
+              "benchmark": "Apply the distributive law to the expansion of algebraic expression including binomarly and collect like terms where appropriate."
+            },
+            {
+              "id": "png_math_g9_9_3_3_12",
+              "topic": "Simplify Using Index Laws",
+              "benchmark_code": "9.3.3.12",
+              "benchmark": "Simplify algebraic products and quotients using index laws."
+            },
+            {
+              "id": "png_math_g9_9_3_3_13",
+              "topic": "Algebraic Fractions",
+              "benchmark_code": "9.3.3.13",
+              "benchmark": "Apply the four operations to simple algebraic fractions with numerical denominations."
+            },
+            {
+              "id": "png_math_g9_9_3_3_14",
+              "topic": "Substitution",
+              "benchmark_code": "9.3.3.14",
+              "benchmark": "Substitute value into formulas to determine an unknown."
+            }
+          ]
+        },
+        "Statistics and Probability": {
+          "Data and Statistics": [
+            {
+              "id": "png_math_g9_9_4_4_1",
+              "topic": "Data",
+              "benchmark_code": "9.4.4.1",
+              "benchmark": "Analyse and interpret data using mean, median, mode, range and frequency."
+            },
+            {
+              "id": "png_math_g9_9_4_4_2",
+              "topic": "Exploring Data",
+              "benchmark_code": "9.4.4.2",
+              "benchmark": "Explore data by constructing stem and leaf plots and comparing sets of data."
+            },
+            {
+              "id": "png_math_g9_9_4_4_3",
+              "topic": "Data Collection, Analysis and Representation",
+              "benchmark_code": "9.4.4.3",
+              "benchmark": "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations."
+            }
+          ],
+          "Probability": [
+            {
+              "id": "png_math_g9_9_4_4_4",
+              "topic": "Experimental and Theoretical Probabilities",
+              "benchmark_code": "9.4.4.4",
+              "benchmark": "Compute probabilities using appropriate methods such as lists and tree diagrams or through experimental or simulation activities."
+            },
+            {
+              "id": "png_math_g9_9_4_4_5",
+              "topic": "Complementary Events",
+              "benchmark_code": "9.4.4.5",
+              "benchmark": "Identify complementary events and use the sum of probabilities to solve problems."
+            },
+            {
+              "id": "png_math_g9_9_4_4_6",
+              "topic": "Language of Probability",
+              "benchmark_code": "9.4.4.6",
+              "benchmark": "Describe events using language of ‘at least’, exclusive ‘or’ (A or B but not both), inclusive ‘or’ (A or B or both) and ‘and’."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "manual_topic_fallback": {
+    "enabled": true,
+    "instruction": "If no exact topic match is found, capture the teacher's manual strand/topic and run a curriculum matching step before generation."
+  }
+}

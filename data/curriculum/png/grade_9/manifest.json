@@ -1,0 +1,25 @@
+{
+  "name": "PNG Mathematics Grade 9 MVP Curriculum Knowledge Base",
+  "created_at": "2026-06-28T04:04:17.373937Z",
+  "purpose": "Lightweight structured curriculum files for teacher selection and multi-agent lesson/resource generation.",
+  "source_documents": [
+    "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+    "Mathematics Grade 9 Teacher Guide"
+  ],
+  "files": {
+    "curriculum_records.json": "Merged syllabus + teacher guide records. Main source for agents.",
+    "syllabus_records.json": "Syllabus-only records: strands, content standards, benchmarks, evidence outcomes.",
+    "selection_options.json": "Frontend-friendly dropdown/options list.",
+    "indexes.json": "Fast lookup indexes and selection tree.",
+    "chunks.jsonl": "Syllabus and teacher-guide text chunks for lightweight RAG/context."
+  },
+  "record_count": 43,
+  "chunk_count": 86,
+  "notes": [
+    "Use curriculum_records.json as the source-of-truth object passed to agents.",
+    "Use selection_options.json for teacher dropdowns.",
+    "Use indexes.json for fast local lookup without a database.",
+    "Use chunks.jsonl only when the agent needs supporting text.",
+    "Manual topic input should pass through a curriculum matching step before generation."
+  ]
+}

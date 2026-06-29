@@ -1,0 +1,2316 @@
+[
+  {
+    "id": "png_math_g9_9_1_1_1",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Number and Operations",
+    "topic": "Factors, Multiples, Primes and Composites",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.1",
+    "benchmark": "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+    "learning_objectives": [
+      "deﬁne and explain the properties of Factors, Multiples, Primes and Composite Numbers,",
+      "revise how to identify Highest and Lowest Common Factors, and",
+      "identify Square Numbers and Cubes."
+    ],
+    "essential_questions": [
+      "What are the important properties of Factors, Multiples, Primes and Composites?",
+      "How can prime factors be identiﬁed?",
+      "What must we do to ﬁnd the Highest Common Factor (HCF) and Lowest Common Multiplier (LCM)?",
+      "How can we differentiate between primes and composites?",
+      "What happens when a number is squared or cubed?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0001"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "number and operations",
+      "factors, multiples, primes and composites",
+      "9.1.1.1"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_2",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Number and Operations",
+    "topic": "Fractions, Decimals and Percentages",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.2",
+    "benchmark": "Calculate fractions, decimals and percentages and their conversions.",
+    "learning_objectives": [
+      "calculate operations with Fractions, Decimals and Percentages,",
+      "convert Decimals to Fractions to Percentages and vice versa, and• apply Fractions, Decimals and Percentages in solving problems in daily life."
+    ],
+    "essential_questions": [
+      "What are the rules of Adding, subtracting, Multiplying and Dividing fractions and decimals?• How are fractions and decimals converted to percentages?• How is a percentage converted to fractions and decimals?• How can we calculate the percentage of a quantity?• What is the method of calculating percentage change?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0002"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "number and operations",
+      "fractions, decimals and percentages",
+      "9.1.1.2"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_3",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Number and Operations",
+    "topic": "Ratio and Proportion",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.3",
+    "benchmark": "Solve problems involving ratio and proportions between quantities.",
+    "learning_objectives": [
+      "simplify Ratios and Fractional Ratios,",
+      "calculate quantities using a given ratio, and • deﬁne and solve problems involving ratio and direct or inverse proportionality of two quantities."
+    ],
+    "essential_questions": [
+      "How is a fractional ratio simpliﬁed?• What is a proportional relationship?• How can we describe direct proportion and inverse proportion?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0003"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "number and operations",
+      "ratio and proportion",
+      "9.1.1.3"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_4",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Estimation",
+    "topic": "Approximation and Estimation",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.4",
+    "benchmark": "Estimate a reasonable solution to a problem using rounding and estimation and recognize their limitations through calculation methods.",
+    "learning_objectives": [
+      "determine the approximate value of quantities by estimation, and",
+      "prove answers by calculation."
+    ],
+    "essential_questions": [
+      "What are some ways of approximation and estimation of decimal quantities?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0004"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "estimation",
+      "approximation and estimation",
+      "9.1.1.4"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_5",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Estimation",
+    "topic": "Significant Figures",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.5",
+    "benchmark": "Identify significant figures and decimals in various situations.",
+    "learning_objectives": [
+      "round numbers and measures to an appropriate degree of accuracy to determine its signiﬁcant ﬁgure, and",
+      "solve problems involving Signiﬁcant Figures and Decimals in various situations."
+    ],
+    "essential_questions": [
+      "What is an approximate value? • What are signiﬁcant ﬁgures? • How can we determine signiﬁcant ﬁgures?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0005"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "estimation",
+      "significant figures",
+      "9.1.1.5"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_6",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Directed Numbers",
+    "topic": "Directed Numbers",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.6",
+    "benchmark": "Use appropriated rules of directed numbers and mixed operations to solve authentic problems.",
+    "learning_objectives": [
+      "review the rules of Directed Numbers and its application in the four arithmetic operations, and",
+      "solve problems using the order of operations with directed numbers."
+    ],
+    "essential_questions": [
+      "What are the rules of directed numbers in addition and subtraction? • What are the rules of directed numbers in multiplication and division?",
+      "Is the order of operations applicable in dealing with directed numbers?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0006"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "directed numbers",
+      "directed numbers",
+      "9.1.1.6"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_7",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Directed Numbers",
+    "topic": "Representation and Application of Directed Numbers",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.7",
+    "benchmark": "Explain the concepts of negative and positive numbers using various representations.",
+    "learning_objectives": [
+      "represent and explain the Absolute Value on a Number Line, and",
+      "apply and Use Directed Numbers using real-life situations."
+    ],
+    "essential_questions": [
+      "What is an absolute value? • How can we represent the Absolute Value on a number line?",
+      "What are some applicable situations which can be represented by directed numbers?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0007"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "directed numbers",
+      "representation and application of directed numbers",
+      "9.1.1.7"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_8",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Indices",
+    "topic": "Squares and Square Roots",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.8",
+    "benchmark": "Determine the relationship between square numbers and square roots and solve related problems.",
+    "learning_objectives": [
+      "relate square numbers to square roots,",
+      "calculate to ﬁnd the square root of products, and",
+      "solve problems that involve square numbers and square roots."
+    ],
+    "essential_questions": [
+      "What is an absolute value? • How can we represent the Absolute Value on a number line?",
+      "What are some applicable situations which can be represented by directed numbers?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0008"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "indices",
+      "squares and square roots",
+      "9.1.1.8"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_9",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Indices",
+    "topic": "Real Numbers",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.9",
+    "benchmark": "Explain the rational and irrational numbers and perform operations with surds and fractional indices.",
+    "learning_objectives": [
+      "deﬁne real numbers and distinguish between rational and irrational numbers,",
+      "perform numerical computation with surds and fractional indices,",
+      "represent rational numbers and square roots on a number line, and",
+      "represent numbers using scientiﬁc notation."
+    ],
+    "essential_questions": [
+      "What is the real number system? • What is the difference between rational and irrational numbers? • How are numbers written in index notation? • What is a scientiﬁc Notation?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0009"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "indices",
+      "real numbers",
+      "9.1.1.9"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_10",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Indices",
+    "topic": "Operations with Rational Numbers",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.10",
+    "benchmark": "Apply addition, subtraction, multiplication, division and order of Operations when calculating with rational numbers.",
+    "learning_objectives": [
+      "perform numeric computations with rational numbers, and • solve problems with rational numbers using the order of operations."
+    ],
+    "essential_questions": [
+      "What are the rules of adding, subtracting, multiplying and dividing rational numbers?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0010"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "indices",
+      "operations with rational numbers",
+      "9.1.1.10"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_1_1_11",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Number, Operation and Computation",
+    "strand_number": 1,
+    "unit": "Indices",
+    "topic": "Laws of Indices",
+    "content_standard_code": "CS1",
+    "content_standard": "Students will be able to represent numbers in various situations and forms, develop fluency in calculations through operations, use base ten as key for extending numbers and operations, and apply numbers in practical situations to develop number sense.",
+    "benchmark_code": "9.1.1.11",
+    "benchmark": "Apply the index laws to variables, using positive integer indices and the zero.",
+    "learning_objectives": [
+      "perform numerical computations using the laws of indices,",
+      "solve related problems using the index laws."
+    ],
+    "essential_questions": [
+      "What are the laws of Indices? • How can we apply the index laws?"
+    ],
+    "evidence_outcomes": [
+      "Use and represent factors, multiples, primes, composites, in various forms and situations.",
+      "Calculate fractions, decimals and percentages and their conversions.",
+      "Extend the properties of exponents to rational exponents.",
+      "Use properties of rational and irrational numbers.",
+      "Apply rules of estimation to solve authentic situations.",
+      "Use appropriate rules and various representations of directed numbers and mixed operations to solve authentic problems.",
+      "Solve problems with squares and square roots, limited to square roots of numbers.",
+      "Use ratios, proportions and percent to represent the relationship between two quantities and solve problems.",
+      "Add, subtract, multiply, and divide numbers with positive and negative exponents.",
+      "Use index notation with numbers to establish the index laws with positive integral indices and the zero index."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 39,
+        "strand_overview_page": 38
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0011"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "number, operation and computation",
+      "indices",
+      "laws of indices",
+      "9.1.1.11"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_1",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Metric System of Measurement",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.1",
+    "benchmark": "Apply metric systems of measurements to solve problems.",
+    "learning_objectives": [],
+    "essential_questions": [
+      "What is needed to determine that solve problems in length, mass, area, volume and capacity?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0012"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "mensuration of plane figures and solids",
+      "metric system of measurement",
+      "9.2.2.1"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_2",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Perimeter",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.2",
+    "benchmark": "Calculate the perimeter and areas of plane figures and composite shapes.",
+    "learning_objectives": [],
+    "essential_questions": [
+      "What factors are needed to determine the perimeter?",
+      "How do you calculate the perimeter of plane ﬁgures, circle and composite shapes?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0013"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "mensuration of plane figures and solids",
+      "perimeter",
+      "9.2.2.2"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_3",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Area of Plane Figures",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.3",
+    "benchmark": "Use formulas, including appropriate units of measure, to determine the surface area and volume of selected prisms, cylinders, cones, and pyramids.",
+    "learning_objectives": [],
+    "essential_questions": [
+      "What is needed to calculate the perimeter of plane ﬁgures and composite shapes?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0014"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "mensuration of plane figures and solids",
+      "area of plane figures",
+      "9.2.2.3"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_4",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Surface Area and Volume",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.4",
+    "benchmark": "Solve problems involving the surface area and volume of right prisms and composite solids.",
+    "learning_objectives": [
+      "apply formula and appropriate units to determine the Net and surface area of prisms, cylinders and pyramids, and",
+      "apply formula and appropriate units to determine the Volume and capacity of prisms, cylinders, cones and pyramids."
+    ],
+    "essential_questions": [
+      "What skills and processes needed to calculate the area of triangle, quadrilateral, circles and sector? • What are the parts of a circle that will be used to interpret a circle? • What other tools will be used to solve with?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0015"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "mensuration of plane figures and solids",
+      "surface area and volume",
+      "9.2.2.4"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_5",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Mensuration of Plane Figures and Solids",
+    "topic": "Surface Area and Volume of Right Solids",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.5",
+    "benchmark": "Solve problems involving surface area and volume of right pyramids, right cones, spheres and related composite solids.",
+    "learning_objectives": [
+      "apply formula and appropriate units to determine the surface area and volume of right pyramids, cones, spheres and related composite ﬁgures."
+    ],
+    "essential_questions": [
+      "What skills and processes are needed to calculate the surface area of right pyramids, cones, spheres and composite ﬁgures?",
+      "What other tools will be used to solve and calculate? .Key Concepts (ASK-MT) Attitudes/Values • View and appreciate the ﬁgures.",
+      "Appreciate and conﬁdently use formulae to calculate the surface area and volume. Skills • Analyse and evaluate the surface area and using formulae to calculate the surface area and volumes of right pyramids, right cones, spheres and related composite solids. Knowledge • Formulas of surface area and volumes of nets and various ﬁgures and their calculations. Mathematical Thinking• Think about how to apply formulae to calculate surface area and volume of pyramids, cones, spheres and composite solids through logical reasoning, problem solving and reﬂection. Solve problems involving surface area and volume of right pyramids, right cones, spheres and related composite solids Solid Shape Name Definition A Right Pyramid A right pyramid is a 3-D shape that has the apex (point of the pyramid) directly above the center of the base An oblique pyramid is a 3-D shape that has the apex that doesn’t line up directly above the center of the base A Right Cone Cones are similar to pyramids except that their bases are circles instead of polygons. Has a circular base and an apex right above the center of the base of the circle. Ab Ab Oblique Pyramid Right Pyramidhh"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0016"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "mensuration of plane figures and solids",
+      "surface area and volume of right solids",
+      "9.2.2.5"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_6",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Rate",
+    "topic": "Time Scales",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.6",
+    "benchmark": "Investigate very small and very large time scales and intervals.",
+    "learning_objectives": [
+      "investigate and evaluate very small intervals of time and rates, and",
+      "investigate and evaluate very large time scales and intervals of time and rates."
+    ],
+    "essential_questions": [
+      "What are very small and very large intervals of time, time scales and rates?",
+      "What is needed to evaluate?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0017"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "rate",
+      "time scales",
+      "9.2.2.6"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_7",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Rate",
+    "topic": "Rates, Tables and Graphs",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.7",
+    "benchmark": "Explain representation of tables and graphs of rates.",
+    "learning_objectives": [],
+    "essential_questions": [
+      "What are the essential skills to be used in interpreting and explaining rate tables and graphs?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0018"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "rate",
+      "rates, tables and graphs",
+      "9.2.2.7"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_8",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Rate",
+    "topic": "Travels Graphs",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.8",
+    "benchmark": "Solve problems with rates and interpret related graphs.",
+    "learning_objectives": [],
+    "essential_questions": [
+      "What is needed to solve problems on rates and interpret related graphs?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0019"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "rate",
+      "travels graphs",
+      "9.2.2.8"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_9",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Geometry",
+    "topic": "Angles and Lines",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.9",
+    "benchmark": "Explain the concepts of parallel lines, perpendicular lines, angles, and angles sum of polygons.",
+    "learning_objectives": [
+      "explain the concepts of parallel lines, perpendicular lines, angles, and",
+      "calculate angle sum of polygons."
+    ],
+    "essential_questions": [
+      "What is needed to determine that lines are parallel, perpendicular? What Angles formed by lines?",
+      "What essentials are needed to ﬁnd the angle sum of polygons?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0020"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "geometry",
+      "angles and lines",
+      "9.2.2.9"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_10",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Geometry",
+    "topic": "Enlargement Transformation",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.10",
+    "benchmark": "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+    "learning_objectives": [
+      "use the enlargement transformation and the conditions for triangles to explain similarities,",
+      "solve problems using enlargement transformation."
+    ],
+    "essential_questions": [
+      "What is needed to do enlargement transformation to solved problems?",
+      "How do the conditions for triangles help to explains similarities?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0021"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "geometry",
+      "enlargement transformation",
+      "9.2.2.10"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_11",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Geometry",
+    "topic": "Transformations including Reflections, Rotation and Translation",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.11",
+    "benchmark": "Perform transformations including reflections, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+    "learning_objectives": [
+      "perform transformations including reﬂections, rotation and translation, and",
+      "describe the size, position and orientation of the resulting shapes."
+    ],
+    "essential_questions": [
+      "What are the types of transformations?",
+      "What description can be drawn from the resulting shapes?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0022"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "geometry",
+      "transformations including reflections, rotation and translation",
+      "9.2.2.11"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_2_2_12",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Geometry, Measurement and Transformation",
+    "strand_number": 2,
+    "unit": "Geometry",
+    "topic": "Circles",
+    "content_standard_code": "CS2",
+    "content_standard": "Students will be able to comprehend the meaning and significant of geometry, measurements and spatial relationship including units and system of measurement and develop and use techniques, tools, and formulas for measuring the properties of objects and relationships among the properties and use transformations and symmetry to analyze mathematical situations.",
+    "benchmark_code": "9.2.2.12",
+    "benchmark": "Investigate angles formed by chords and tangent of a circle.",
+    "learning_objectives": [
+      "investigate angles formed by chords and tangent of a circle."
+    ],
+    "essential_questions": [
+      "What is needed to understand angles formed in a circle by chords and tangents?"
+    ],
+    "evidence_outcomes": [
+      "Solve rate values represented on tables and graphs.",
+      "Apply metric system of measurement to solve problems in area, volume and rates.",
+      "Apply appropriate formula and units to calculate perimeter and areas of various plane figures and composite shapes.",
+      "Apply appropriate formula and units to calculate surface area and volume of prisms, cylinders, pyramids, right cones, spheres and related composite solids.",
+      "Perform transformations including reflection, rotation and translation and describe the size, position and orientation of the resulting shapes.",
+      "Explain the concepts of parallel lines, perpendicular lines, angles, and angle sum of polygons.",
+      "Use the enlargement transformation and the conditions for triangles to explain similarities and solve problems.",
+      "Explain angles formed by chords and tangent of a circle."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 41,
+        "strand_overview_page": 40
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0023"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "geometry, measurement and transformation",
+      "geometry",
+      "circles",
+      "9.2.2.12"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_1",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Linear Functions",
+    "topic": "Equation of a Straight Line",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.1",
+    "benchmark": "Determine the slope and equation of a line when given the graph of a line, two points on the line, or the equation of the line.",
+    "learning_objectives": [
+      "identify and sketch a straight line with the corresponding pairs of (x,y) values and deﬁne graph of linear function (y=mx +c),",
+      "deﬁne and conclude the equation of a straight line with y-intercept and gradient, and",
+      "deﬁne and conclude the equation given two points, one point and the gradient and given the graph."
+    ],
+    "essential_questions": [
+      "What information is required to determine the slope and equation of a straight line on a graph?",
+      "What tools are used to construct a straight line graph"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0024"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "linear functions",
+      "equation of a straight line",
+      "9.3.3.1"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_2",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Linear Functions",
+    "topic": "Graphs of Linear Equation",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.2",
+    "benchmark": "Solve and sketch linear equations.",
+    "learning_objectives": [
+      "solve linear equations,",
+      "sketch graphs of linear equations, and",
+      "evaluate linear equations."
+    ],
+    "essential_questions": [
+      "What information is used to solve linear equations?",
+      "What content and skills are required to sketch graphs of leaner equations?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0025"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "linear functions",
+      "graphs of linear equation",
+      "9.3.3.2"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_3",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Linear Functions",
+    "topic": "Linear Relations",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.3",
+    "benchmark": "Apply and interpret linear relation modelling practical situations.",
+    "learning_objectives": [
+      "interpret linear relationship between two quantities in practical situations, and",
+      "graph the linear relationship between two quantities."
+    ],
+    "essential_questions": [
+      "What skill and process is required to apply and interpret the linear relation in practical situations?",
+      "How are linear relations important in practical situations?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0026"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "linear functions",
+      "linear relations",
+      "9.3.3.3"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_4",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Equations and Inequality",
+    "topic": "Linear Simultaneous Equations",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.4",
+    "benchmark": "Solve linear simultaneous equations, using algebraic and graphical techniques including usage of digital technology.",
+    "learning_objectives": [
+      "calculate and solve Linear equations,",
+      "solve simultaneous equations using substitution, elimination, graphical and digital technology, and",
+      "solve word problems involving simultaneous equations."
+    ],
+    "essential_questions": [
+      "What is needed to solve linear simultaneous equation?",
+      "What methods will be used and how will each method be used?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0027"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "equations and inequality",
+      "linear simultaneous equations",
+      "9.3.3.4"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_5",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Equations and Inequality",
+    "topic": "Linear Equations and Inequalities",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.5",
+    "benchmark": "Investigate and solve single variable equations and inequalities using rational numberline and use nuberline to graph the solutions.",
+    "learning_objectives": [
+      "apply the basic rules for solving inequalities, and",
+      "solve inequalities with single variables."
+    ],
+    "essential_questions": [
+      "What is required to solve and graph single variable equations and inequalities?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0028"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "equations and inequality",
+      "linear equations and inequalities",
+      "9.3.3.5"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_6",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Number Patterns",
+    "topic": "Patterns, Sequences and Formulae",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.6",
+    "benchmark": "Represent a variety of patterns, including recursive patterns, with tables, graphs, words and symbolic rules.",
+    "learning_objectives": [
+      "completing and describing number patterns,",
+      "ﬁnding terms and writing rules for sequences, and",
+      "using the T n formula."
+    ],
+    "essential_questions": [
+      "How would number patterns be represented as recursive, on tables, graphs, words and as symbolic rules?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0029"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "number patterns",
+      "patterns, sequences and formulae",
+      "9.3.3.6"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_7",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Number Patterns",
+    "topic": "Formulae and Patterns",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.7",
+    "benchmark": "Identify and apply appropriate mathematical formulae to find values of various patterns.",
+    "learning_objectives": [
+      "identify formulae for various patterns, and",
+      "apply formulae to ﬁnd values of various patterns."
+    ],
+    "essential_questions": [
+      "How would you formulate mathematical formulae to ﬁnd values of various patterns?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0030"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "number patterns",
+      "formulae and patterns",
+      "9.3.3.7"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_8",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Number Patterns",
+    "topic": "Number Pattern Problems",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.8",
+    "benchmark": "Solve various problems on number patterns.",
+    "learning_objectives": [],
+    "essential_questions": [
+      "What skill and process is required to solve number patterns?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0031"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "number patterns",
+      "number pattern problems",
+      "9.3.3.8"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_9",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Algebra",
+    "topic": "Algebraic Equations and Factorisation",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.9",
+    "benchmark": "Represent mathematical situations as algebraic expressions and equations and factorize by common factor.",
+    "learning_objectives": [
+      "formulate Algebraic expressions from mathematical situations,",
+      "formulate Algebraic equations, and",
+      "factorize algebraic expressions."
+    ],
+    "essential_questions": [
+      "How are mathematical situations represented as algebraic expressions and equations?",
+      "How is factorization method used?",
+      "What is a common factor?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0032"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "algebra",
+      "algebraic equations and factorisation",
+      "9.3.3.9"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_10",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Algebra",
+    "topic": "Factorization of Monic and Non‐monic Quadratic Expressions",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.10",
+    "benchmark": "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+    "learning_objectives": [
+      "factorize Monic quadratic expressions,",
+      "factorize non-monic quadratic expressions, and",
+      "solve quadratic equations."
+    ],
+    "essential_questions": [
+      "How is factorization method used to factorize monic and non-monic quadratic expressions?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0033"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "algebra",
+      "factorization of monic and non‐monic quadratic expressions",
+      "9.3.3.10"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_11",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Algebra",
+    "topic": "Binomials",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.11",
+    "benchmark": "Apply the distributive law to the expansion of algebraic expression including binomarly and collect like terms where appropriate.",
+    "learning_objectives": [
+      "simplify algebraic expressions,",
+      "deﬁne binomials and binomial products, and",
+      "expand binomial products of expression."
+    ],
+    "essential_questions": [
+      "How is distributive law used to expand the expressions?",
+      "What are binomials?",
+      "How are they expanded?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0034"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "algebra",
+      "binomials",
+      "9.3.3.11"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_12",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Algebra",
+    "topic": "Simplify Using Index Laws",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.12",
+    "benchmark": "Simplify algebraic products and quotients using index laws.",
+    "learning_objectives": [
+      "simplify algebraic products using index laws, and",
+      "simplify algebraic quotients using index laws."
+    ],
+    "essential_questions": [
+      "What is an index law?",
+      "How will I use it to simplify algebraic products and algebraic quotients?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0035"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "algebra",
+      "simplify using index laws",
+      "9.3.3.12"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_13",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Algebra",
+    "topic": "Algebraic Fractions",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.13",
+    "benchmark": "Apply the four operations to simple algebraic fractions with numerical denominations.",
+    "learning_objectives": [
+      "apply addition and subtraction operation with algebraic fractions,",
+      "apply multiplication and division operations with algebraic fractions, and",
+      "apply the four operations with word problems on algebraic fractions."
+    ],
+    "essential_questions": [
+      "How are four operations applied to solve algebraic fractions?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0036"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "algebra",
+      "algebraic fractions",
+      "9.3.3.13"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_3_3_14",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Patterns and Algebra",
+    "strand_number": 3,
+    "unit": "Algebra",
+    "topic": "Substitution",
+    "content_standard_code": "CS3",
+    "content_standard": "Students will be able to interpret various types of patterns and functional relationships, use symbolic forms to represent, model, and analyze mathematical situations and collect, organize, and represent data to answer questions.",
+    "benchmark_code": "9.3.3.14",
+    "benchmark": "Substitute value into formulas to determine an unknown.",
+    "learning_objectives": [
+      "state formulae and determine the unknown, and",
+      "substitute into the subject of the formulae to determine the solutions."
+    ],
+    "essential_questions": [
+      "How is the substitution method used to determine the unknown values?"
+    ],
+    "evidence_outcomes": [
+      "Solve linear equations and inequalities with two variables using algebraic methods, manipulatives or models.",
+      "Determine the slope of a line when given the graph of a line, two points on the line, or the equation of the line.",
+      "Use a variety of strategies including concrete modelling, pictorial representation, and algebraic manipulation to add, subtract, multiply, divide and factor first and second-degree binomials and trinomials in one variable.",
+      "Apply distributive law to the expansion of algebraic expressions, including binomials, and collect like terms where appropriate.",
+      "Solve linear simultaneous equations using algebraic and graphical techniques including use of digital technology.",
+      "Solve various problems on number patterns.",
+      "Factorize monic and non-monic quadratic expressions and solve a wide range of quadratic equations derived from a variety of contexts.",
+      "Apply the four operations to simple algebraic fractions with numerical denominators."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 43,
+        "strand_overview_page": 42
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0037"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "patterns and algebra",
+      "algebra",
+      "substitution",
+      "9.3.3.14"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_4_4_1",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "strand_number": 4,
+    "unit": "Data and Statistics",
+    "topic": "Data",
+    "content_standard_code": "CS4",
+    "content_standard": "Students will be able to investigate how to interpret data using methods of exploratory data analysis, develop and evaluate inferences, predictions and arguments that are based on data and understand and apply basic notions of chance and probability.",
+    "benchmark_code": "9.4.4.1",
+    "benchmark": "Analyse and interpret data using mean, median, mode, range and frequency.",
+    "learning_objectives": [
+      "explore and examine types of data (discrete and continuous variables)",
+      "carry out calculation of mean, mode, median and range",
+      "analyse, interpret and report the various types of data"
+    ],
+    "essential_questions": [
+      "What is required to analyse, comprehend and interpret data?",
+      "What is the purpose of collecting, analysing, interpreting and reporting data?"
+    ],
+    "evidence_outcomes": [
+      "Analyse and interpret data using mean, median, mode, range and frequency.",
+      "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations.",
+      "Judge the validity of reported data, conclusions and generalizations.",
+      "Calculate probabilities for simple events under different relationships, including independent, dependent, with replacement and without replacement.",
+      "Identify complementary events and use the sum of probabilities to solve problems.",
+      "Describe events using language of ‘at least’, exclusive ‘or’, inclusive ‘or’, and ‘and’."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 45,
+        "strand_overview_page": 44
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0038"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "statistics and probability",
+      "data and statistics",
+      "data",
+      "9.4.4.1"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_4_4_2",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "strand_number": 4,
+    "unit": "Data and Statistics",
+    "topic": "Exploring Data",
+    "content_standard_code": "CS4",
+    "content_standard": "Students will be able to investigate how to interpret data using methods of exploratory data analysis, develop and evaluate inferences, predictions and arguments that are based on data and understand and apply basic notions of chance and probability.",
+    "benchmark_code": "9.4.4.2",
+    "benchmark": "Explore data by constructing stem and leaf plots and comparing sets of data.",
+    "learning_objectives": [
+      "explore data,",
+      "construct stem and leaf plots, and",
+      "compare sets of data."
+    ],
+    "essential_questions": [
+      "What are stem and leaf plots and how are they constructed?",
+      "What are the stem and leaf plots used for?"
+    ],
+    "evidence_outcomes": [
+      "Analyse and interpret data using mean, median, mode, range and frequency.",
+      "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations.",
+      "Judge the validity of reported data, conclusions and generalizations.",
+      "Calculate probabilities for simple events under different relationships, including independent, dependent, with replacement and without replacement.",
+      "Identify complementary events and use the sum of probabilities to solve problems.",
+      "Describe events using language of ‘at least’, exclusive ‘or’, inclusive ‘or’, and ‘and’."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 45,
+        "strand_overview_page": 44
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0039"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "statistics and probability",
+      "data and statistics",
+      "exploring data",
+      "9.4.4.2"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_4_4_3",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "strand_number": 4,
+    "unit": "Data and Statistics",
+    "topic": "Data Collection, Analysis and Representation",
+    "content_standard_code": "CS4",
+    "content_standard": "Students will be able to investigate how to interpret data using methods of exploratory data analysis, develop and evaluate inferences, predictions and arguments that are based on data and understand and apply basic notions of chance and probability.",
+    "benchmark_code": "9.4.4.3",
+    "benchmark": "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations.",
+    "learning_objectives": [
+      "plan and design data collection method,",
+      "carry out data collection,",
+      "organize data,",
+      "represent data."
+    ],
+    "essential_questions": [
+      "What is required to design data?",
+      "How will the data be organised and represented so that it can be read and interpreted for meaning and purpose?"
+    ],
+    "evidence_outcomes": [
+      "Analyse and interpret data using mean, median, mode, range and frequency.",
+      "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations.",
+      "Judge the validity of reported data, conclusions and generalizations.",
+      "Calculate probabilities for simple events under different relationships, including independent, dependent, with replacement and without replacement.",
+      "Identify complementary events and use the sum of probabilities to solve problems.",
+      "Describe events using language of ‘at least’, exclusive ‘or’, inclusive ‘or’, and ‘and’."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 45,
+        "strand_overview_page": 44
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0040"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "statistics and probability",
+      "data and statistics",
+      "data collection, analysis and representation",
+      "9.4.4.3"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_4_4_4",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "strand_number": 4,
+    "unit": "Probability",
+    "topic": "Experimental and Theoretical Probabilities",
+    "content_standard_code": "CS4",
+    "content_standard": "Students will be able to investigate how to interpret data using methods of exploratory data analysis, develop and evaluate inferences, predictions and arguments that are based on data and understand and apply basic notions of chance and probability.",
+    "benchmark_code": "9.4.4.4",
+    "benchmark": "Compute probabilities using appropriate methods such as lists and tree diagrams or through experimental or simulation activities.",
+    "learning_objectives": [
+      "deﬁne probability,",
+      "compute simple probability based on experiments,",
+      "compute simple probability based on theory, and",
+      "represent simple probability using Tree Diagrams."
+    ],
+    "essential_questions": [
+      "What is a probability?",
+      "How can we compute simple probability? • What are simple probabilities based on experiment and theory? • How can I represent simple probability on a tree diagram?"
+    ],
+    "evidence_outcomes": [
+      "Analyse and interpret data using mean, median, mode, range and frequency.",
+      "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations.",
+      "Judge the validity of reported data, conclusions and generalizations.",
+      "Calculate probabilities for simple events under different relationships, including independent, dependent, with replacement and without replacement.",
+      "Identify complementary events and use the sum of probabilities to solve problems.",
+      "Describe events using language of ‘at least’, exclusive ‘or’, inclusive ‘or’, and ‘and’."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 45,
+        "strand_overview_page": 44
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0041"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "statistics and probability",
+      "probability",
+      "experimental and theoretical probabilities",
+      "9.4.4.4"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_4_4_5",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "strand_number": 4,
+    "unit": "Probability",
+    "topic": "Complementary Events",
+    "content_standard_code": "CS4",
+    "content_standard": "Students will be able to investigate how to interpret data using methods of exploratory data analysis, develop and evaluate inferences, predictions and arguments that are based on data and understand and apply basic notions of chance and probability.",
+    "benchmark_code": "9.4.4.5",
+    "benchmark": "Identify complementary events and use the sum of probabilities to solve problems.",
+    "learning_objectives": [
+      "deﬁne and identify complementary events, and",
+      "solve problem using sum of probabilities."
+    ],
+    "essential_questions": [
+      "What are complementary events and how will I use the sum of probabilities to solve complementary events?"
+    ],
+    "evidence_outcomes": [
+      "Analyse and interpret data using mean, median, mode, range and frequency.",
+      "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations.",
+      "Judge the validity of reported data, conclusions and generalizations.",
+      "Calculate probabilities for simple events under different relationships, including independent, dependent, with replacement and without replacement.",
+      "Identify complementary events and use the sum of probabilities to solve problems.",
+      "Describe events using language of ‘at least’, exclusive ‘or’, inclusive ‘or’, and ‘and’."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 45,
+        "strand_overview_page": 44
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0042"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "statistics and probability",
+      "probability",
+      "complementary events",
+      "9.4.4.5"
+    ]
+  },
+  {
+    "id": "png_math_g9_9_4_4_6",
+    "country": "Papua New Guinea",
+    "curriculum": "Standards-Based Curriculum",
+    "grade": 9,
+    "subject": "Mathematics",
+    "strand": "Statistics and Probability",
+    "strand_number": 4,
+    "unit": "Probability",
+    "topic": "Language of Probability",
+    "content_standard_code": "CS4",
+    "content_standard": "Students will be able to investigate how to interpret data using methods of exploratory data analysis, develop and evaluate inferences, predictions and arguments that are based on data and understand and apply basic notions of chance and probability.",
+    "benchmark_code": "9.4.4.6",
+    "benchmark": "Describe events using language of ‘at least’, exclusive ‘or’ (A or B but not both), inclusive ‘or’ (A or B or both) and ‘and’.",
+    "learning_objectives": [
+      "describe events using ‘at least’,",
+      "describe events using ‘exclusive events’,",
+      "describe events using ‘inclusive events’."
+    ],
+    "essential_questions": [
+      "What language is used to describe the probability events?"
+    ],
+    "evidence_outcomes": [
+      "Analyse and interpret data using mean, median, mode, range and frequency.",
+      "Design a study, collect data, and select the appropriate representation to make conclusions and generalizations.",
+      "Judge the validity of reported data, conclusions and generalizations.",
+      "Calculate probabilities for simple events under different relationships, including independent, dependent, with replacement and without replacement.",
+      "Identify complementary events and use the sum of probabilities to solve problems.",
+      "Describe events using language of ‘at least’, exclusive ‘or’, inclusive ‘or’, and ‘and’."
+    ],
+    "source_refs": {
+      "syllabus": {
+        "document": "Mathematics Grades 9 and 10 Standards-Based Syllabus",
+        "source_file": "Mathematics_Grade_9-10_Syllabus(1).pdf",
+        "content_standard_page": 45,
+        "strand_overview_page": 44
+      },
+      "teacher_guide": {
+        "document": "Mathematics Grade 9 Teacher Guide",
+        "chunk_ids": [
+          "chunk_0043"
+        ]
+      }
+    },
+    "tags": [
+      "mathematics",
+      "statistics and probability",
+      "probability",
+      "language of probability",
+      "9.4.4.6"
+    ]
+  }
+]
