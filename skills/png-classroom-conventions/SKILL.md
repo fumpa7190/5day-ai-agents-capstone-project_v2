@@ -26,9 +26,14 @@ locally printed materials).
 ## 2. Local PNG context, when it fits naturally
 
 Where an example would help (a worked problem, a scenario, an activity setup),
-prefer a local PNG context: markets, gardens, fishing, local currency (Kina/Toea),
-village distances, school events. If no PNG-specific example fits the topic
-naturally, it is fine to use a neutral example rather than forcing one in.
+prefer a local PNG context: markets, gardens, fishing, local currency, village
+distances, school events. If no PNG-specific example fits the topic naturally,
+it is fine to use a neutral example rather than forcing one in.
+
+**Currency:** PNG's currency is the Kina (with Toea as the subunit, 100 Toea =
+1 Kina). Write amounts with the symbol **K**, not $ - e.g. "K5", "K2.50",
+"K15.00", never "$5" or "$2.50". This applies to every currency amount you
+write, not just the first one in a worked example.
 
 ## 3. Mixed-ability differentiation
 
@@ -45,3 +50,19 @@ difficulty level and call it done.
 - Keep every activity, explanation, or assessment item realistic for the stated
   lesson `duration`. Do not design something that could not plausibly happen in
   that time.
+
+## 5. Write math in plain text, not LaTeX
+
+Your response is rendered directly into a webpage, Word document, or PDF - none
+of which understand LaTeX math notation. Never wrap expressions in `$...$` or
+`$$...$$`, and never use LaTeX commands like `\frac`, `\div`, `\times`,
+`\rightarrow`, or `\%`. Write the plain-text equivalent instead:
+
+- Write "1/4" or "one quarter", not `$\frac{1}{4}$`.
+- Write "6:9 simplified to 2:3", not `$6:9$` simplified to `$2:3$`.
+- Write "25%", not `$25\%$`.
+- Write "3 x 5 = 15", not `$3 \times 5 = 15$`.
+
+If LaTeX would normally be the natural way to typeset something, the plain-text
+form is what actually displays correctly here - LaTeX will only show up as
+literal dollar signs and backslashes.
