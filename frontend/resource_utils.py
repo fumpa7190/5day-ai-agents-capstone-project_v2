@@ -2,8 +2,10 @@
 and testable without needing a running Streamlit script context.
 """
 
+import html
 import io
 import json
+import sys
 from pathlib import Path
 
 import markdown as md
@@ -11,7 +13,15 @@ from docx import Document
 from htmldocx import HtmlToDocx
 from xhtml2pdf import pisa
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from schemas.sections import LessonPlanSections  # noqa: E402
+
 SCHOOL_CONFIG_PATH = Path(__file__).resolve().parent / "school_config.json"
+
+# Lesson Plan's short identifying facts - rendered as one compact table
+# instead of a heading + one-line paragraph each, which read as a wall of
+# disconnected one-liners in the exported Word/PDF document.
+LESSON_PLAN_INFO_FIELDS = ["grade", "subject", "strand", "unit", "topic"]
 
 
 def _load_config() -> dict:
@@ -93,9 +103,27 @@ def render_section_markdown(title: str, section) -> str:
     `##`-headed Markdown block, used both per-wizard-step and inside
     `render_package_markdown`'s final combined document.
     """
+    dumped = section.model_dump(exclude={"raw_markdown"})
     lines = [f"## {title}"]
-    for field_name, value in section.model_dump(exclude={"raw_markdown"}).items():
-        if not value:
+    skip_fields: set[str] = set()
+
+    if isinstance(section, LessonPlanSections):
+        if dumped.get("lesson_title"):
+            lines.append(f"**{dumped['lesson_title']}**")
+        info_rows = [(name, dumped[name]) for name in LESSON_PLAN_INFO_FIELDS if dumped.get(name)]
+        if info_rows:
+            # Raw HTML, not a Markdown table - a Markdown table always
+            # promotes its first row to <th>, which the app's CSS renders as
+            # a solid black bar; this table has no header row to give it one.
+            row_html = "".join(
+                f"<tr><td><strong>{html.escape(name.title())}</strong></td><td>{html.escape(value)}</td></tr>"
+                for name, value in info_rows
+            )
+            lines.append(f"<table>{row_html}</table>")
+        skip_fields = {"lesson_title", *LESSON_PLAN_INFO_FIELDS}
+
+    for field_name, value in dumped.items():
+        if field_name in skip_fields or not value:
             continue
         heading = field_name.replace("_", " ").title()
         lines.append(f"### {heading}\n\n{value}")
