@@ -66,13 +66,31 @@ explicit:
    `services/review.py::_check_required_fields`, which checks specific
    always-required fields individually, not just the section as a whole.
 2. It has omitted a benchmark code's literal text even when told to include
-   it - caught by `_check_record_alignment`'s literal substring check, not
-   prevented by the instruction alone.
+   it - still flagged by `_check_record_alignment`'s literal substring check,
+   but no longer just detected: `orchestrator/pipeline.py::
+   _backfill_benchmark_and_standard` now prepends the code from the matched
+   curriculum record onto the Benchmark/Content Standard fields whenever the
+   model's text doesn't already contain it, for `exact` matches. The app
+   already knows the code with certainty before the model is ever called, so
+   relying on the model to transcribe it was the wrong design - this is
+   corrected in code, not just caught after the fact.
 3. It has used `$...$` LaTeX math notation (this app's renderers don't support
-   LaTeX) and `$` for currency (PNG uses Kina/`K`) until the shared skill gave
-   concrete examples of the plain-text form to use instead of an abstract
-   "don't do X" rule.
-4. Running resource-generation agents concurrently via `ParallelAgent`
+   LaTeX) and `$` for currency (PNG uses Kina/`K`), even after the shared
+   skill gave concrete examples of the plain-text form to use instead of an
+   abstract "don't do X" rule. `services/markdown_sections.py::
+   sanitize_dollar_signs` now runs on every stage's raw text before parsing -
+   unwrapping paired `$...$` spans, converting `$<digit>` to `K<digit>`, and
+   stripping any stray `$` - so the skill examples reduce how often this
+   happens and the sanitizer guarantees it never reaches the teacher either
+   way. `services/review.py::_check_no_dollar_signs` stays as a safety net.
+4. It has written an assessment heading (e.g. "## Quick Quiz") containing
+   only a framing sentence and no actual questions - not caught by
+   `_check_nonempty_sections` (the document as a whole wasn't short) or
+   `_check_required_fields` (assessment's required headings are
+   `assessment_mode`-dependent, so none are unconditionally required). Fixed
+   by `_check_assessment_has_questions`, which flags any item-style heading
+   the model did write if it contains no numbered list marker and no `?`.
+5. Running resource-generation agents concurrently via `ParallelAgent`
    exceeded LM Studio's shared context budget - fixed structurally, the
    pipeline never dispatches agents concurrently, only sequentially.
 

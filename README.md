@@ -91,7 +91,7 @@ pip install -r requirements.txt
 pytest
 ```
 
-All 43 tests should pass in well under a second.
+All 52 tests should pass in well under a second.
 
 ### Run
 
@@ -118,13 +118,22 @@ Topic **Linear Relations**, and click through all three steps.
   limitation, not an architectural one (see `specs/png-classroom-agent-workflow.md`
   section 1).
 - A small local model doesn't always follow every instruction (e.g. it has
-  skipped a heading, or omitted a literal benchmark code). Where this was
-  observed, the relevant skill was tightened and/or the deterministic Review
-  Agent was extended to catch it - but prompt-following from a 2-4B model is
-  not 100% reliable.
+  skipped a heading, omitted a literal benchmark code, or written `$` for
+  currency/LaTeX math). Where this was observed, the relevant skill was
+  tightened, and for the benchmark/content-standard codes and `$` usage
+  specifically, the app no longer just detects the gap - it corrects it in
+  code (`orchestrator/pipeline.py::_backfill_benchmark_and_standard`,
+  `services/markdown_sections.py::sanitize_dollar_signs`) before the teacher
+  ever sees the output. The deterministic Review Agent still catches what
+  can't be auto-corrected this way - but prompt-following from a 2-4B model
+  is not 100% reliable, so this remains an ongoing area to watch.
 - Worksheet generation isn't implemented yet - it can be added as a fifth
   skill + agent following the same pattern as the other four.
 - Assessment's per-mode required headings (`quiz_test`/`assignment`/`full_pack`)
   aren't checked by the Review Agent the way Lesson Plan's and Teacher Notes'
-  always-required fields are - the check would need to be conditional on
-  `assessment_mode`, not yet implemented.
+  always-required fields are - that would need to be conditional on
+  `assessment_mode`, not yet implemented. A related but narrower check does
+  exist: `_check_assessment_has_questions` flags any item-style heading
+  (`quick_quiz`/`exit_ticket`/`short_test`/`assignment`) the model wrote
+  without any actual numbered items or question marks - catching a thin
+  "framing sentence only, no questions" response regardless of mode.
