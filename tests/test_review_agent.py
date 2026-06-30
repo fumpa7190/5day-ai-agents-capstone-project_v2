@@ -1,5 +1,5 @@
 from schemas.curriculum import ClassroomContext, CurriculumMatch, TeacherSelection
-from schemas.sections import ActivitiesSections, LessonPlanSections, TeacherNotesSections
+from schemas.sections import ActivitiesSections, AssessmentSections, LessonPlanSections, TeacherNotesSections
 from services.review import check_alignment
 
 
@@ -73,6 +73,25 @@ def test_needs_review_on_content_standard_mismatch():
     assert any("content standard code" in issue for issue in result.issues)
 
 
+def test_needs_review_on_latex_or_currency_dollar_sign():
+    # Reproduces a real observed model behavior: wrapping a plain algebraic
+    # expression in LaTeX math delimiters, which this app's Markdown-to-Word
+    # /PDF pipeline can't render - it shows up as a literal '$'.
+    match = CurriculumMatch(match_status="custom")
+    selection = TeacherSelection(grade=9, subject="Mathematics", manual_topic="x")
+    context = ClassroomContext(duration="40 minutes", resources=["Blackboard only"])
+    assessment = AssessmentSections(
+        quick_quiz="1. Factorise $3(2x + 3)$.\n2. Simplify 4x + 2x.",
+        marking_guide="Award one mark per correct answer.",
+        raw_markdown="## Quick Quiz\n1. Factorise $3(2x + 3)$.\n2. Simplify 4x + 2x.\n## Marking Guide\n...",
+    )
+
+    result = check_alignment(match, selection, context, {"assessment": assessment})
+
+    assert result.alignment_status == "needs_review"
+    assert any("literal '$'" in issue for issue in result.issues)
+
+
 def test_needs_review_on_forbidden_resource():
     match = CurriculumMatch(match_status="custom")
     selection = TeacherSelection(grade=9, subject="Mathematics", manual_topic="x")
@@ -139,6 +158,40 @@ def test_needs_review_on_missing_teacher_notes_field():
 
     assert result.alignment_status == "needs_review"
     assert any("worked_examples" in issue for issue in result.issues)
+
+
+def test_needs_review_on_assessment_section_without_questions():
+    # Reproduces a real observed model behavior: "## Quick Quiz" was written,
+    # but with only a framing sentence and no actual numbered questions.
+    match = CurriculumMatch(match_status="custom")
+    selection = TeacherSelection(grade=9, subject="Mathematics", manual_topic="x")
+    context = ClassroomContext(duration="40 minutes", resources=["Blackboard only"])
+    assessment = AssessmentSections(
+        quick_quiz="This quiz is designed to check if students can meet the learning objectives.",
+        marking_guide="Award one mark per correct answer.",
+        raw_markdown="## Quick Quiz\n...\n## Marking Guide\n...",
+    )
+
+    result = check_alignment(match, selection, context, {"assessment": assessment})
+
+    assert result.alignment_status == "needs_review"
+    assert any("quick_quiz" in issue for issue in result.issues)
+
+
+def test_pass_when_assessment_section_has_numbered_questions():
+    match = CurriculumMatch(match_status="custom")
+    selection = TeacherSelection(grade=9, subject="Mathematics", manual_topic="x")
+    context = ClassroomContext(duration="40 minutes", resources=["Blackboard only"])
+    assessment = AssessmentSections(
+        quick_quiz="1. Simplify 3x + 5x.\n2. Factorise 6x + 12.",
+        marking_guide="Award one mark per correct answer.",
+        raw_markdown="## Quick Quiz\n1. Simplify 3x + 5x.\n2. Factorise 6x + 12.\n## Marking Guide\n...",
+    )
+
+    result = check_alignment(match, selection, context, {"assessment": assessment})
+
+    assert result.alignment_status == "pass"
+    assert result.issues == []
 
 
 def test_pass_does_not_flag_optional_local_context_example():

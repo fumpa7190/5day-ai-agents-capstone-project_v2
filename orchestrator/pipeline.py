@@ -35,6 +35,7 @@ from schemas.sections import ActivitiesSections, AssessmentSections, LessonPlanS
 from services.content_safety import check_topic_safety
 from services.curriculum_store import get_store
 from services.markdown_sections import parse as parse_markdown
+from services.markdown_sections import sanitize_dollar_signs
 
 logger = logging.getLogger("orchestrator.pipeline")
 
@@ -101,9 +102,37 @@ async def run_lesson_plan_stage(
     state = await _run_agents(
         [build_lesson_planning_agent(model)], initial_state, "Generate the Lesson Plan for this lesson."
     )
-    lesson_plan = parse_markdown(state.get("lesson_plan_raw", ""), LessonPlanSections)
+    lesson_plan = parse_markdown(sanitize_dollar_signs(state.get("lesson_plan_raw", "")), LessonPlanSections)
+    _backfill_benchmark_and_standard(lesson_plan, match)
     logger.info("stage 1/3 lesson_planning: done")
     return match, lesson_plan
+
+
+def _backfill_benchmark_and_standard(lesson_plan: LessonPlanSections, match: CurriculumMatch) -> None:
+    """Guarantees the Benchmark and Content Standard fields literally contain
+    their official codes, instead of relying on the model to always
+    transcribe them correctly.
+
+    The skill already instructs the model to lead each field with its code
+    (see skills/lesson-plan-writing/SKILL.md), but a small local model still
+    sometimes writes only the description and drops the code - a small
+    model's instruction-following is probabilistic, not contractual. The app
+    already knows the correct code with certainty from the matched
+    curriculum record, so this enforces it in code rather than just
+    detecting its absence after the fact (see services/review.py's matching
+    check, which this makes redundant for `exact` matches specifically).
+    """
+    if match.match_status != "exact" or not match.curriculum_record:
+        return
+    record = match.curriculum_record
+
+    benchmark_code = record.get("benchmark_code", "")
+    if benchmark_code and benchmark_code not in lesson_plan.benchmark:
+        lesson_plan.benchmark = f"{benchmark_code} - {lesson_plan.benchmark}".strip(" -")
+
+    content_standard_code = record.get("content_standard_code", "")
+    if content_standard_code and content_standard_code not in lesson_plan.content_standard:
+        lesson_plan.content_standard = f"{content_standard_code} - {lesson_plan.content_standard}".strip(" -")
 
 
 async def run_activities_notes_stage(
@@ -127,8 +156,8 @@ async def run_activities_notes_stage(
         initial_state,
         "Generate the Lesson Activities and Teacher Notes for this lesson.",
     )
-    activities = parse_markdown(state.get("activities_raw", ""), ActivitiesSections)
-    teacher_notes = parse_markdown(state.get("teacher_notes_raw", ""), TeacherNotesSections)
+    activities = parse_markdown(sanitize_dollar_signs(state.get("activities_raw", "")), ActivitiesSections)
+    teacher_notes = parse_markdown(sanitize_dollar_signs(state.get("teacher_notes_raw", "")), TeacherNotesSections)
     logger.info("stage 2/3 activities_and_notes: done")
     return activities, teacher_notes
 
@@ -160,4 +189,4 @@ async def run_assessment_stage(
         [build_assessment_agent(model)], initial_state, "Generate the Tests and Assignments for this lesson."
     )
     logger.info("stage 3/3 assessment: done")
-    return parse_markdown(state.get("assessment_raw", ""), AssessmentSections)
+    return parse_markdown(sanitize_dollar_signs(state.get("assessment_raw", "")), AssessmentSections)

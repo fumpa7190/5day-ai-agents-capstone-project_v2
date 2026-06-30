@@ -17,6 +17,12 @@ MIN_SECTION_CHARS = 30
 SHORT_LESSON_MINUTES = 20
 SHORT_LESSON_WORD_LIMIT = 600
 
+# These assessment headings are meant to hold actual items (questions a
+# student answers), not just framing prose - unlike Marking Guide or Rubric,
+# which can legitimately be a short list of criteria.
+ASSESSMENT_ITEM_FIELDS = ["quick_quiz", "exit_ticket", "short_test", "assignment"]
+_NUMBERED_ITEM_RE = re.compile(r"(?m)^\s*\d+[.)]")
+
 # Some fields (e.g. grade is just "9") are intentionally short, so
 # MIN_SECTION_CHARS doesn't apply - these just need to be non-empty. Unlike the
 # whole-document check in _check_nonempty_sections, this catches the case where
@@ -63,6 +69,8 @@ def check_alignment(
     _check_forbidden_resources(classroom_context, sections, issues, fixes)
     _check_nonempty_sections(sections, issues, fixes)
     _check_required_fields(sections, issues, fixes)
+    _check_assessment_has_questions(sections, issues, fixes)
+    _check_no_dollar_signs(sections, issues, fixes)
     _check_duration_sanity(classroom_context, sections, issues, fixes)
 
     status = "needs_review" if issues else "pass"
@@ -169,6 +177,57 @@ def _check_required_fields(
                 fixes.append(
                     f"Regenerate the '{name}' section, ensuring the '{field}' heading and its content are included."
                 )
+
+
+def _check_assessment_has_questions(
+    sections: dict[str, BaseModel | None],
+    issues: list[str],
+    fixes: list[str],
+) -> None:
+    """Catches an assessment heading that the model wrote but populated with
+    only framing prose ("This quiz checks whether students...") and no actual
+    questions. `_check_nonempty_sections` only catches a short *whole
+    document*, and `_check_required_fields` doesn't cover assessment (its
+    headings are mode-dependent, so we can't require any one of them be
+    present) - this instead checks that any item-style heading the model did
+    choose to write actually contains items, via a numbered-list marker or a
+    question mark.
+    """
+    assessment = sections.get("assessment")
+    if assessment is None:
+        return
+    for field in ASSESSMENT_ITEM_FIELDS:
+        content = getattr(assessment, field, "")
+        if not content.strip():
+            continue
+        if not (_NUMBERED_ITEM_RE.search(content) or "?" in content):
+            issues.append(f"The '{field}' section doesn't appear to contain any actual questions.")
+            fixes.append(f"Regenerate the '{field}' section, ensuring it includes the actual quiz/test questions.")
+
+
+def _check_no_dollar_signs(
+    sections: dict[str, BaseModel | None],
+    issues: list[str],
+    fixes: list[str],
+) -> None:
+    """Catches a literal '$' anywhere in generated content.
+
+    Per png-classroom-conventions, '$' should never appear at all: currency
+    must use 'K' (Kina), and LaTeX math delimiters ('$...$') aren't
+    supported by this app's Markdown-to-Word/PDF pipeline - either use shows
+    up as a literal, unrendered '$' in the exported document, so a single
+    rule ("no '$' anywhere") catches both failure modes without needing to
+    tell them apart.
+    """
+    for name, section in sections.items():
+        if section is None:
+            continue
+        if "$" in getattr(section, "raw_markdown", ""):
+            issues.append(
+                f"The '{name}' section contains a literal '$', which won't render correctly "
+                "(currency should use 'K', and math should be written in plain text, not LaTeX)."
+            )
+            fixes.append(f"Regenerate the '{name}' section without any '$' - use 'K' for currency and plain text for math.")
 
 
 def _check_duration_sanity(

@@ -16,10 +16,43 @@ from pydantic import BaseModel
 T = TypeVar("T", bound=BaseModel)
 
 _HEADING_RE = re.compile(r"^#{1,3}\s+(.+?)\s*$", flags=re.MULTILINE)
+# A LaTeX-style math span: two '$' on the same line with no '$' between them.
+# Matched and stripped *before* the currency check below, so a digit right
+# after the opening '$' (e.g. "$3(2x + 3)$") isn't mistaken for a price.
+_PAIRED_DOLLAR_RE = re.compile(r"\$([^$\n]+)\$")
+_CURRENCY_DOLLAR_RE = re.compile(r"\$(\d)")
 
 
 def _normalize(heading: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", heading.strip().lower()).strip("_")
+
+
+def sanitize_dollar_signs(text: str) -> str:
+    """Deterministically repairs '$' usage a small local model sometimes
+    still writes despite png-classroom-conventions' rule against it: PNG
+    currency must use 'K' (Kina), and LaTeX math delimiters ('$...$') aren't
+    supported by this app's Markdown-to-Word/PDF pipeline.
+
+    Order matters: a paired '$...$' span is assumed to be a LaTeX math
+    delimiter and is unwrapped first, keeping its (already plain-text)
+    content (e.g. "$3(2x + 3)$" -> "3(2x + 3)") - this must run before the
+    currency check, otherwise the digit right after the opening '$' would be
+    misread as a price. Any '$<digit>' left after that is an un-converted
+    currency amount and becomes 'K<digit>' (e.g. "$5" -> "K5"). Any
+    remaining stray '$' is simply dropped.
+
+    This runs before parsing, the same enforce-in-code approach as
+    `orchestrator.pipeline._backfill_benchmark_and_standard`, rather than
+    just flagging it after the fact (see services/review.py's
+    `_check_no_dollar_signs`, which stays as a safety net). Note this is a
+    heuristic, not a parser: two unrelated currency amounts on the same
+    line with no other '$' between them (e.g. "$5 today and $10 tomorrow")
+    will be misread as one paired span and lose their 'K' prefixes - an
+    accepted tradeoff favoring the far more common single-expression case.
+    """
+    text = _PAIRED_DOLLAR_RE.sub(r"\1", text)
+    text = _CURRENCY_DOLLAR_RE.sub(r"K\1", text)
+    return text.replace("$", "")
 
 
 def parse(text: str, schema_cls: type[T]) -> T:

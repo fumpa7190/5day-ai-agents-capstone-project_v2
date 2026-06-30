@@ -62,6 +62,8 @@ of which understand LaTeX math notation. Never wrap expressions in `$...$` or
 - Write "6:9 simplified to 2:3", not `$6:9$` simplified to `$2:3$`.
 - Write "25%", not `$25\%$`.
 - Write "3 x 5 = 15", not `$3 \times 5 = 15$`.
+- Write "3(2x + 3)", not `$3(2x + 3)$` - this applies to every algebraic
+  expression, not just fractions, ratios, percentages, or multiplication.
 
 If LaTeX would normally be the natural way to typeset something, the plain-text
 form is what actually displays correctly here - LaTeX will only show up as

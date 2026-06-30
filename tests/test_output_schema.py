@@ -1,5 +1,5 @@
 from schemas.sections import AssessmentSections, LessonPlanSections
-from services.markdown_sections import parse
+from services.markdown_sections import parse, sanitize_dollar_signs
 
 SAMPLE = """## Lesson Title
 Linear Relations in Real Life
@@ -67,3 +67,17 @@ def test_parse_keeps_earlier_content_when_a_later_occurrence_is_empty():
     )
     result = parse(text, AssessmentSections)
     assert "Real marking content" in result.marking_guide
+
+
+def test_sanitize_strips_latex_math_delimiters():
+    # Reproduces a real observed model behavior: wrapping a plain algebraic
+    # expression in LaTeX-style '$...$' delimiters this app can't render.
+    assert sanitize_dollar_signs("Factorise $3(2x + 3)$.") == "Factorise 3(2x + 3)."
+
+
+def test_sanitize_converts_dollar_currency_to_kina():
+    assert sanitize_dollar_signs("The market price was $5 today.") == "The market price was K5 today."
+
+
+def test_sanitize_handles_text_with_no_dollar_signs():
+    assert sanitize_dollar_signs("Simplify 3x + 5x.") == "Simplify 3x + 5x."
